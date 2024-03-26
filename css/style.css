@@ -1,0 +1,1003 @@
+/*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Reenie+Beanie&family=Saira+Condensed:wght@500&display=swap');
+/*love in a cup*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Reenie+Beanie&family=Saira+Condensed:wght@300&display=swap');
+/*orbitron*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Reenie+Beanie&family=Saira+Condensed:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /**border: 1px solid red;**/
+}
+    
+html{
+    font-size: 16px;
+}
+.loveInACup{
+    width: 100%;
+    height: 23px;
+}
+.loveInACup h4{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    text-align: center;
+    background-color: black;
+    font-size: .9375rem;
+    font-weight: 150;
+}
+h1{
+    color: white;
+    font-family: "Reenie Beanie", cursiva;
+    font-size:8.625rem;
+    font-weight: 100;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    color:#225c3b;
+    font-family:"Orbitron", sans-serif;
+    font-size: 2.125rem;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+    color:#225c3b;
+}
+.menulogo{
+    width: 800px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+.menulogo img{
+    width:100%;
+    height: 100%;;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color:#999999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .pieDePag{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+.pieDePag h2{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 3rem;
+    font-weight:200;
+}
+footer .pieDePag img{
+    width:70px;
+    height:70%
+}
+.carrito{
+    color: black;
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 6.875rem;
+    font-weight: 100;
+}
+/*
+home------------------------------------------------------------------------------------------------------*/
+.navHome{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.productosInicio p{
+    text-transform: uppercase;
+}
+.productosInicio button{
+    color: white;
+    font-family:"Orbitron", sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: #527e65;
+    border: none;
+    border-radius: 25px;
+}
+.cuatroProd{
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prod article{
+    padding-bottom: 30px;
+    width: 20%;
+    height: 30%;
+}
+.prod img{
+    margin-top: 40px;
+    margin-left: 10px;
+    width:90%;
+    height: 100%;
+    border-radius: 57px;
+}
+.masVendidos{
+    color: black; 
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 4rem;
+
+}
+.masVendidos h3{
+    font-weight: 100;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.punto{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    width: 85px;
+    height: 75px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.comienzo{
+    background-image: url(../assest/Inicio/cafeteria\ aest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 712px;
+    background-position: center center;
+}
+.comienzo h1{
+    font-size: 120px;
+    text-align: left; 
+    text-transform: uppercase;
+    width: 20%;
+    height: 100%;
+    margin-left: 20px;
+}
+.productosInicio{
+    color:  black;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 1.75rem;
+    font-weight: 100;
+    text-align: left;
+    margin-left: 15px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    row-gap:20px ;
+}
+.botones button{
+    width:60%;
+    height:70%;
+    color: #527e65;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: black;
+    border-style: 20px solid;
+    border-color: #527e65;
+    border-radius: 59.5px;
+    margin: 10px 10px 10px 10px;
+}
+.reserva{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.reserva h3{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 3rem;
+    font-weight: 50;
+    padding-left: 20px;
+}
+.reserva button{
+    color: #527e65;
+    font-family:"Orbitron", sans-serif;
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+.fondoCof{
+    background-image: url(../assest/Inicio/fondoTime.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fondoCof img{
+    width: 20%;
+    height: 80%;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.fondoCof p{
+    color: black; 
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 2.25rem;
+    font-weight: 600;
+    width: 52%;
+    height: 90%;
+    margin-top: 70px;
+}
+.encontrarnos{
+    width: 100%;
+    height: 500px;
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.encontrarnos h2{
+    color:#225c3b;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 6.25rem;
+    font-weight: 50;
+    text-align: left center;
+    text-transform: uppercase;
+    width: 30%;
+    height: 50%;
+    padding-left:70px;
+    padding-top: 40px;
+}
+.chicacoffe2{
+    margin-top: 30px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 400x;
+}
+/*Menu---------------------------------------------------------------------------------------------------------*/
+.mainMenu h1{
+    width: 100%;
+    height: 650px;
+    text-transform: uppercase;
+    background-image: url(../assest/menu/menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bebidas-comidas{
+    background-image: url(../assest/menu/fondoClaro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menuCalUno article{
+    display: inline-block;
+    margin: 25px;
+}
+.menuCalDos article{
+    display: inline-block;
+    margin: 25px;
+}
+.productos p{
+    color: #225c3b;
+    font-family:"Orbitron", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.bebidas-comidas img{
+    border-radius: 63px;
+}
+.bebidas-comidas h2{
+    color: black;
+    font-family:"Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.sub-dos h2{
+    color:white;
+    font-family:"Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    width:100% ;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 200px;
+    background-image: url(../assest/menu/paraacompañar.png);
+}
+.sub-dos{
+    display: flex;
+    justify-content:start ;
+
+}
+/*Nosotros----------------------------------------------------------------------------------------------------*/
+.hola p{
+    color: black;
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 4rem;
+    font-weight: 100;
+    width: 50%;
+    height: 100%;
+    width: 60%;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+.primeraParte{
+    background-image: url(../assest/nosotros/fondonos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+.hola{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hola img{
+    width: 25%;
+    height: 10%;
+    padding-top: 110px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.cocinaalavista{
+    width: 100%;
+    height: 600px;
+}
+.cocinaalavista img{
+    width:100%;
+    height:100%;
+}
+.ambos{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(11, 9.090909%);
+    grid-template-rows: repeat(9, 11.111111%);
+}
+.ambos .patioGrid{
+    width:100%;
+    height: 100%;
+    border-radius: 153px;
+    grid-column: 2 / 6;
+    grid-row: 2 / 9;
+}
+.ambos .terrazaGrid{
+    width:100%;
+    height: 100%;
+    border-radius: 153px;
+    grid-column:   7 / 11;
+    grid-row: 2 / 9;
+}
+.ambos .patioo{
+    color:black;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    width: 100%;
+    grid-column: 2 / 6;
+    justify-self: center;
+    align-self: center;
+    grid-row: 4 / 6 ;
+}
+.ambos .terrazaa{
+    color:black;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 8rem;
+    font-weight: 900;
+    width: 100%;
+    grid-column: 7 / 11;
+    justify-self: center;
+    align-self: center;
+    grid-row: 4 / 6 ;
+}
+.terr-pat{
+    width: 100%;
+    background-color: black;
+}
+.terr-pat p{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 4.6875rem;
+    font-weight: 100;
+}
+.tambien{
+    padding-top: 30px;
+}
+.tambien h2{
+    color:black;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.tambien p{
+    color: #527e65;
+    text-align: center;
+    font-family:"Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 70px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+/*Reserva-----------------------------------------------------------------------------------------------*/
+.sectionDos{
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+}
+.imagen{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-template-areas: "salon terraza patio";
+    column-gap: 20px;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+.lugarReserva article div h2{
+    color: white;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 110px;
+    font-weight: 100;
+    text-align: center;
+}
+.lugares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    grid-template-areas: "salon terraza patio";
+    position: relative;
+}
+.lugarReserva article .lugares .salon{
+    grid-area: salon;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 90px;
+}
+.lugarReserva article .lugares .terraza{
+    grid-area: terraza;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+.lugarReserva article .lugares .patio{
+    grid-area: patio;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 120px;
+}
+.linea{
+    width: 100%;
+    height: 30px;
+}
+.div-1 div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 0px;
+}
+.div-2 div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.div-2{
+    width: 70%;
+    padding-left: 50px;
+}
+.div-1{
+    width: 70%;
+    margin-left: 150px;
+}
+.todoJunto{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.enviarBoton{
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.enviarBoton button{
+    text-transform: uppercase;
+    color: #000;
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 59px;
+    background: none;
+    border: none;
+}
+.formularioTA form{
+    color: black;
+    font-family:"Orbitron", sans-serif;
+    font-weight: 900;
+}
+.formularioTA h2{
+    color: black;
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 6rem;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.formularioTA p{
+    text-align: left;
+    width: 70%;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+.palabraForm{
+    width:100%;
+    font-size: 2.5rem;
+}
+.barraForm{
+    width:70%;
+    height: 30px;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border-radius: 29.5px;
+    border-width: 1.5px;
+}
+.chicataza{
+    width: 20%;
+    justify-content: right;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.info{
+    color: black;
+    font-family:"Orbitron", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    grid-area: info;
+    margin-top: 40px;
+}
+.amigas{
+    background-image: url(../assest/reserva/amigas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.amigas h2{
+    color: white;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+.amigas h3{
+    color: white;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+/*Take away-----------------------------------------------------------------------------------------------*/
+.takeAway{
+    text-align: center;
+    padding-top: 160px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assest/takeAway/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pedipreppas{
+    background-image: url(../assest/takeAway/fondodeg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.pedipreppas .comenza{
+    color: black;
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 6.875rem;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+.pedipreppas ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.productosTA{
+    background-image: url(../assest/takeAway/fondoBlanco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.productosTA article{
+    display: inline-block;
+    margin: 25px;
+}
+.productosTA button{
+    color: white;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0px 70px 0px 70px;
+    margin-left: 15px;
+    background-color:#225c3b;
+    border: none;
+    border-radius: 59.5px;
+}
+.formTA{
+    background-image: url(../assest/takeAway/degrade.jpg);
+    background-repeat: no-repeat;
+}
+.productosTA article img{
+    border-radius: 63px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.productosTA article div .productos{
+    color: #225c3b;
+    font-family:"Orbitron", sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pedipreppas h4{
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 200;
+}
+.pedipreppas h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 6.875rem;
+    font-weight: 1000;
+}
+.pedipreppas ol{
+    color: #527e65;
+    font-family:"Orbitron", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.botonPedir button{
+    width: 95%;
+    color: #527e65;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 500;
+    background-color: white;
+    border-style: 10px solid;
+    border-color: #527e65;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+.botonPedir{
+    padding-left: 33px;
+    padding-bottom: 20px;
+}
+.lineaDiv{
+    background-color: #000;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+}
+.carrito{
+    width:80%;
+    height: 10%;
+    border: black solid;
+    border-radius: 50px;
+    margin-left:150px ;
+    margin-bottom: 50px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.todo .formulario label{
+    color: #000000;
+    font-size: 2.625rem;
+    font-weight: 500;
+    font-family:"Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.formulario .inp{
+    width: 50%;
+    height: 25px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 50px;
+}
+.formulario input{
+    margin-left: 70px;
+}
+.formulario .lab{
+    margin-left: 70px;
+}
+.formTA .imagenPL{
+    width: 100%;
+    height: 400px;
+}
+.formTA img{
+    width: 100%;
+    height: 100%;
+}
+
+/**MEDIDA TABLET IPAD MINI 8.3**/
+/**home--------------------------------------------------------------------------------------------------------**/
+@media (max-width: 1263px){
+    .productosInicio{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1170px){
+    .comienzo h1{
+        font-size: 4.5625rem;
+        width: 20%;
+        height: 70%;
+        align-items: center;
+    }
+    .loveInACup{
+        width: 100%;
+    }
+    footer{
+        height: 50%;
+    }
+    .pieDePag h2{
+        font-size: 1.875rem;
+    }
+    footer .pieDePag img{
+        width:10%;
+        height:35%;
+    }
+    .fondoCof p{
+        font-size: 1.875rem;
+    }
+    .reserva h3{
+        font-size: 2.625rem;
+    }
+    .botones button{
+        font-size: 18px;
+        height: 80%;
+    }
+    .reserva{
+        height: 70px;
+    }
+    .encontrarnos h2{
+        font-size: 4.75rem;
+        padding-left:50px;
+    }
+    .encontrarnos{
+        height: 400px;
+    }
+    .chicacoffe2{
+        width: 20%;
+        height: 70%;
+    }
+    .productosInicio{
+        font-size: 1.25rem;
+    }
+    .productosInicio button{
+        width:40%;
+        height: 40%;
+    }
+}
+@media (max-width: 1100px){
+    .encontrarnos{
+        height: 350px;
+    }
+    .chicacoffe2{
+        width: 18%;
+        height: 70%;
+    }
+}
+@media (max-width: 929px){
+    .comienzo h1{
+        font-size: 4.25rem;
+        width: 20%;
+        height: 70%;
+    }
+    .loveInACup{
+        width: 100%;
+    }
+    .fondoCof p{
+        font-size: 1.625rem;
+    }
+    .reserva h3{
+        font-size: 2.25rem;
+    }
+    .botones button{
+        font-size: .75rem;
+    }
+    .chicacoffe2{
+        width: 17%;
+        height: 60%;
+    }
+    .encontrarnos{
+        height: 300px;
+    }
+    .encontrarnos h2{
+        font-size: 4.25rem;
+        padding-left:40px;
+    }
+    nav{
+        font-size: 1.125rem;
+    }
+    .logo img{
+        width:80%;
+        height: 80%;;
+    }
+    header{
+        height: 90px;
+    }
+    .productosInicio{
+        font-size: .875rem;
+    }
+    
+}
+@media (max-width: 737px){
+    .pieDePag h2{
+        font-size: 1.125rem;
+    }
+    footer .pieDePag img{
+        width:10%;
+        height:15%;
+    }
+    .reserva h3{
+        font-size: 1.625rem;
+    }
+    .botones button{
+        font-size: .625rem;
+        width: 100%;
+        height: 100%;
+    }
+    .reserva{
+        height: 50px;
+    }
+    nav{
+        font-size: .875rem;
+    }
+    .logo img{
+        width:60%;
+        height: 60%;;
+    }
+    header{
+        height: 70px;
+    }
+    .productosInicio{
+        font-size: .75rem;
+    }
+    .encontrarnos h2{
+        font-size: 3.75rem;
+        padding-left:30px;
+    }
+}
+@media (max-width:610px){
+    .fondoCof p{
+        font-size: 1.25rem;
+    }
+    .reserva h3{
+        font-size: 1.125rem;
+    }
+    .botones button{
+        font-size: .375rem;
+    }
+    .encontrarnos{
+        height: 250px;
+    }
+    nav{
+        font-size: .625rem;
+    }
+    .logo img{
+        width:50%;
+        height: 50%;;
+    }
+    .productosInicio{
+        font-size: .5rem;
+    }
+    .encontrarnos h2{
+        font-size: 3.375rem;
+        padding-left:20px;
+    }
+}
+@media (max-width:500px){
+    nav{
+        font-size: .375rem;
+    }
+    .logo img{
+        width:40%;
+        height: 40%;
+    }
+    .encontrarnos h2{
+        font-size: 2.5rem;
+        padding-left:10px;
+    }
+}
+/**MEDIDA MOBILE IPHONE SE**/
