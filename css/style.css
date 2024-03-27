@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /**border: 1px solid red;**/
+    //*border: 1px solid red;**/
 }
     
 html{
@@ -37,27 +37,27 @@ h1{
     text-align: center;
 }
 nav{
+    padding-left: 220px;
     width: 100%;
     height: 100%;
     color:#225c3b;
     font-family:"Orbitron", sans-serif;
-    font-size: 2.125rem;
-    text-align: center;
 }
-nav li{
+nav ul li{
     display: inline-block;
+    padding-top: 40px;
     margin-left: 10px;
     margin-right: 10px; 
-    text-align: center;
-    padding-top: 20px;
     align-items: center;
 }
-nav li a{
+nav ul li a{
     text-decoration: none;
     color:#225c3b;
+    font-size: 1.75rem;
 }
 .menulogo{
-    width: 800px;
+    padding-left: 200px;
+    width: 80%;
     height: 230px;
     display: flex;
     justify-content: center;
@@ -102,13 +102,18 @@ footer .pieDePag img{
     font-size: 6.875rem;
     font-weight: 100;
 }
+.barraNav{
+    height: 115px;
+}
 /*
 home------------------------------------------------------------------------------------------------------*/
 .navHome{
     width: 100%;
+    height:70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .productosInicio p{
     text-transform: uppercase;
@@ -117,29 +122,31 @@ home----------------------------------------------------------------------------
     color: white;
     font-family:"Orbitron", sans-serif;
     font-weight: 400;
-    padding: 10px 20px;
+    padding:5%;
     background-color: #527e65;
     border: none;
     border-radius: 25px;
+    text-align: center;
 }
 .cuatroProd{
     background-image: url(../assest/Inicio/fondo\ sombra.jpg);
     background-size: cover;
     width: 100%;
+    height: 650px;
     background-repeat: no-repeat;
 }
 .prod{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 .prod article{
-    padding-bottom: 30px;
     width: 20%;
-    height: 30%;
+    height: 10%;
 }
 .prod img{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 10px;
     width:90%;
     height: 100%;
@@ -149,24 +156,23 @@ home----------------------------------------------------------------------------
     color: black; 
     font-family: "Reenie Beanie", cursiva;
     font-size: 4rem;
-
 }
 .masVendidos h3{
+    height: 20%;
     font-weight: 100;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 0px;
+
 }
 .punto{
     background-color: black;
 }
 .logo{
-    display: flex;
-    justify-content: left;
     width: 85px;
     height: 75px;
 }
 .logo img{
+    margin-top: 10%;
     width: 100%;
     height: 100%;
 }
@@ -177,9 +183,11 @@ home----------------------------------------------------------------------------
     width: 100%;
     height: 712px;
     background-position: center center;
+    display: flex;
+    align-items: center;
 }
 .comienzo h1{
-    font-size: 120px;
+    font-size: 110px;
     text-align: left; 
     text-transform: uppercase;
     width: 20%;
@@ -189,16 +197,16 @@ home----------------------------------------------------------------------------
 .productosInicio{
     color:  black;
     font-family: "Reenie Beanie", cursiva;
-    font-size: 1.75rem;
+    font-size: 1.875rem;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
     margin-left: 15px;
 }
 .botones{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: 60%;
     row-gap:20px ;
 }
@@ -249,12 +257,14 @@ home----------------------------------------------------------------------------
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .fondoCof img{
     width: 20%;
     height: 80%;
     margin-top: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 50px;
 }
 .fondoCof p{
@@ -264,7 +274,7 @@ home----------------------------------------------------------------------------
     font-weight: 600;
     width: 52%;
     height: 90%;
-    margin-top: 70px;
+    margin-top: 15%;
 }
 .encontrarnos{
     width: 100%;
@@ -289,7 +299,7 @@ home----------------------------------------------------------------------------
 }
 .chicacoffe2{
     margin-top: 30px;
-    margin-right: 170px;
+    margin-right: 10%;
     margin-bottom: 30px;
     width: 25%;
     height: 400x;
@@ -811,18 +821,50 @@ home----------------------------------------------------------------------------
 
 /**MEDIDA TABLET IPAD MINI 8.3**/
 /**home--------------------------------------------------------------------------------------------------------**/
-@media (max-width: 1263px){
+@media (max-width: 1440px){
+    .comienzo{
+        height: 600px;
+    }
+    .comienzo h1{
+        font-size: 6.25rem;
+    }
+}
+@media (max-width: 1350px){
+    .cuatroProd{
+        height: 600px;
+    }
     .productosInicio{
         font-size: 1.5rem;
     }
 }
+@media (max-width: 1272px){
+    .cuatroProd{
+        height: 550px;
+    }
+    .comienzo{
+        height: 550px;
+    }
+    .comienzo h1{
+        font-size: 5.625rem;
+    }
+    .productosInicio{
+        font-size: 1.5rem;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+}
 
 @media (max-width: 1170px){
-    .comienzo h1{
-        font-size: 4.5625rem;
+    .fondoCof img{
         width: 20%;
         height: 70%;
-        align-items: center;
+    }
+    .comienzo{
+        height: 420px;
+    }
+    .comienzo h1{
+        font-size: 4.375rem;
     }
     .loveInACup{
         width: 100%;
@@ -859,7 +901,7 @@ home----------------------------------------------------------------------------
     }
     .chicacoffe2{
         width: 20%;
-        height: 70%;
+        height: 80%;
     }
     .productosInicio{
         font-size: 1.25rem;
@@ -870,19 +912,41 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 1100px){
+    .fondoCof img{
+        width: 22%;
+    }
+    .cuatroProd{
+        height: 500px;
+    }
+    nav ul li a{
+        font-size: 1.375rem;
+    }
+    .logo img{
+        width:90%;
+        height:90%;
+    }
+    .barraNav{
+        height: 108px;
+    }
     .encontrarnos{
         height: 350px;
     }
-    .chicacoffe2{
-        width: 18%;
-        height: 70%;
-    }
+
 }
 @media (max-width: 929px){
+    .fondoCof img{
+        width: 23%;
+        height: 65%;
+    }
+    .cuatroProd{
+        height: 450px;
+    }
+    .comienzo{
+        height: 350px;
+    }
     .comienzo h1{
-        font-size: 4.25rem;
+        font-size: 3.625rem;
         width: 20%;
-        height: 70%;
     }
     .loveInACup{
         width: 100%;
@@ -896,10 +960,6 @@ home----------------------------------------------------------------------------
     .botones button{
         font-size: .75rem;
     }
-    .chicacoffe2{
-        width: 17%;
-        height: 60%;
-    }
     .encontrarnos{
         height: 300px;
     }
@@ -907,22 +967,57 @@ home----------------------------------------------------------------------------
         font-size: 4.25rem;
         padding-left:40px;
     }
-    nav{
-        font-size: 1.125rem;
+    .barraNav{
+        height: 106px;
     }
     .logo img{
         width:80%;
-        height: 80%;;
+        height:80%;
     }
-    header{
-        height: 90px;
+    nav ul li a{
+        font-size: 1.125rem;
     }
     .productosInicio{
         font-size: .875rem;
     }
-    
+    .productosInicio button{
+        font-size: .75rem;
+    }
+}
+@media (max-width: 815px){
+    .chicacoffe2{
+        width: 20%;
+        height: 73%;
+    }
+    .fondoCof img{
+        width: 24%;
+        height: 60%;
+    }
+    .cuatroProd{
+        height: 420px;
+    }
+    .comienzo{
+        height: 300px;
+    }
+    .comienzo h1{
+        font-size: 3.125rem;
+    }
 }
 @media (max-width: 737px){
+    .chicacoffe2{
+        height: 68%;
+    }
+    .fondoCof img{
+        height: 55%;
+    }
+    .cuatroProd{
+        height: 400px;
+    }
+    .prod article{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .pieDePag h2{
         font-size: 1.125rem;
     }
@@ -941,43 +1036,63 @@ home----------------------------------------------------------------------------
     .reserva{
         height: 50px;
     }
-    nav{
-        font-size: .875rem;
-    }
-    .logo img{
-        width:60%;
-        height: 60%;;
-    }
-    header{
-        height: 70px;
-    }
     .productosInicio{
         font-size: .75rem;
     }
+    .encontrarnos{
+        height: 250px;
+    }
     .encontrarnos h2{
-        font-size: 3.75rem;
+        font-size: 3.375rem;
         padding-left:30px;
     }
+    .barraNav{
+        height: 90px;
+    }
+    .logo img{
+        width:70%;
+        height:70%;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+    .productosInicio button{
+        font-size: .625rem;
+    }
 }
-@media (max-width:610px){
+@media (max-width:636px){
+    .botones button{
+        font-size: .5rem;
+        margin: 0.5px 0.5px 0.5px 0.5px;
+    }
+    .fondoCof{
+        height: 350px;
+    }
     .fondoCof p{
-        font-size: 1.25rem;
+        padding-top: 0%;
+        font-size: 1.375rem;
+    }
+    .fondoCof img{
+        width: 26%;
+        height: 60%;
+    }
+    .cuatroProd{
+        height: 350px;
+    }
+    .comienzo{
+        height: 250px;
+    }
+    .comienzo h1{
+        font-size: 2.625rem;
     }
     .reserva h3{
-        font-size: 1.125rem;
-    }
-    .botones button{
-        font-size: .375rem;
+        font-size: 1.375rem;
     }
     .encontrarnos{
         height: 250px;
     }
     nav{
         font-size: .625rem;
-    }
-    .logo img{
-        width:50%;
-        height: 50%;;
     }
     .productosInicio{
         font-size: .5rem;
@@ -986,18 +1101,183 @@ home----------------------------------------------------------------------------
         font-size: 3.375rem;
         padding-left:20px;
     }
-}
-@media (max-width:500px){
-    nav{
-        font-size: .375rem;
+    .barraNav{
+        height: 85px;
     }
     .logo img{
-        width:40%;
-        height: 40%;
+        width:60%;
+        height:60%;
+    }
+    nav ul li a{
+        font-size: .8125rem;
+    }
+    .masVendidos{
+        font-size: 3.25rem;
+    }
+    .productosInicio button{
+        font-size: .4375rem;
+    }
+}
+@media (max-width:535px){
+    .encontrarnos{
+        height: 200px;
+    }
+    .chicacoffe2{
+        height: 60%;
+    }
+    .reserva h3{
+        padding-left: 5px;
+    }
+    .botones button{
+        justify-content: right;
+        width: 30%;
+        font-size: .5rem;
+    }
+    .fondoCof img{
+        width: 27%;
+        height: 55%;
+    }
+    .fondoCof p{
+        font-size: 1.25rem;
+    }
+    .cuatroProd{
+        height: 320px;
+    }
+    .comienzo{
+        height: 200px;
+    }
+    .comienzo h1{
+        font-size: 2.125rem;
+    }
+    nav{
+        font-size: .375rem;
     }
     .encontrarnos h2{
         font-size: 2.5rem;
         padding-left:10px;
     }
+    .barraNav{
+        height: 75px;
+    }
+    .logo img{
+        margin-top: 25%;
+        width:40%;
+        height:40%;
+    }
+    nav ul li a{
+        font-size: .625rem;
+    }
+    .masVendidos{
+        font-size: 2.8125rem;
+    }
+    .productosInicio button{
+        font-size: .3125rem;
+    }
+}
+
+@media (max-width:460px){
+    .pieDePag h2{
+        font-size: .75rem;
+    }
+    .encontrarnos{
+        height: 150px;
+    }
+    .encontrarnos h2{
+        font-size: 2.1875rem;
+        padding-top: 20px;
+    }
+    .chicacoffe2{
+        height: 70%;
+    }
+    .fondoCof{
+        height: 250px;
+    }
+    .fondoCof img{
+        height: 60%;
+    }
+    .fondoCof p{
+        padding-top: 2%;
+        font-size: .875rem;
+    }
+    .cuatroProd{
+        height: 280px;
+    }
+    .masVendidos{
+        font-size: 2.375rem;
+    }
+    .comienzo{
+        height: 130px;
+    }
+    .comienzo h1{
+        width: 15%;
+        margin-left: 10px;
+        font-size: 1.375rem;
+    }
+    .barraNav{
+        height: 70px;
+    }
+    .logo img{
+        width:40%;
+        height:40%;
+    }
+    nav ul li a{
+        font-size: .4375rem;
+    }
+}
+@media (max-width:375px){
+    .encontrarnos h2{
+        font-size: 30p
+        ;
+    }
+    .chicacoffe2{
+        height: 60%;
+    }
+    .reserva h3{
+        font-size: 1.125rem;
+    }
+    .fondoCof{
+        height: 210px;
+    }
+    .fondoCof img{
+        width: 25%;
+        height: 50%;
+    }
+    .fondoCof p{
+        padding-top: 2%;
+        font-size: .75rem;
+    }
+    .prod{
+        margin-top: 0px;
+    }
+    .masVendidos h3{
+        padding-top: 20px;
+    }
+    .cuatroProd{
+        height: 220px;
+    }
+    .masVendidos{
+        font-size: 1.75rem;
+    }
+    .barraNav{
+        height: 50px;
+    }
+    .navHome{
+        height: 50%;
+    }
+    .logo img{
+        margin-top: 35%;
+        width:25%;
+        height:25%;
+    }
+    nav ul li a{
+        font-size: .25rem;
+    }
+    .comienzo{
+        height: 110px;
+    }
+    .comienzo h1{
+        font-size: 1.125rem;
+    }
+    
 }
 /**MEDIDA MOBILE IPHONE SE**/
