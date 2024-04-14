@@ -9,11 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    //*border: 1px solid red;**/
-}
-    
-html{
-    font-size: 16px;
+    /**border: 1px solid red;**/
 }
 .loveInACup{
     width: 100%;
@@ -37,18 +33,20 @@ h1{
     text-align: center;
 }
 nav{
-    padding-left: 220px;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     color:#225c3b;
     font-family:"Orbitron", sans-serif;
+    align-items: center;
 }
 nav ul li{
     display: inline-block;
-    padding-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px; 
-    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px; 
+    justify-content: center;
+    padding-top: 10px;
 }
 nav ul li a{
     text-decoration: none;
@@ -56,14 +54,13 @@ nav ul li a{
     font-size: 1.75rem;
 }
 .menulogo{
-    padding-left: 200px;
-    width: 80%;
-    height: 230px;
+    width: 100%;
+    height: 220px;
     display: flex;
     justify-content: center;
 }
 .menulogo img{
-    width:100%;
+    width:60%;
     height: 100%;;
 }
 footer{
@@ -103,17 +100,24 @@ footer .pieDePag img{
     font-weight: 100;
 }
 .barraNav{
-    height: 115px;
-}
-/*
-home------------------------------------------------------------------------------------------------------*/
-.navHome{
     width: 100%;
-    height:70%;
+    height: 107px;
+}
+.puntoC{
+    height: 30px;
+    color: white;
+    background-color: white;
+}
+/*home------------------------------------------------------------------------------------------------------*/
+.navHome{
+    padding-top: 20px;
+    width: 100%;
+    height:50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0px;
 }
 .productosInicio p{
     text-transform: uppercase;
@@ -132,22 +136,23 @@ home----------------------------------------------------------------------------
     background-image: url(../assest/Inicio/fondo\ sombra.jpg);
     background-size: cover;
     width: 100%;
-    height: 650px;
+    height: 565px;
     background-repeat: no-repeat;
 }
 .prod{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+
 }
 .prod article{
     width: 20%;
     height: 10%;
 }
 .prod img{
+    margin-left: 7px;
     margin-top: 20px;
-    margin-left: 10px;
     width:90%;
     height: 100%;
     border-radius: 57px;
@@ -162,17 +167,16 @@ home----------------------------------------------------------------------------
     font-weight: 100;
     text-align: center;
     padding-top: 30px;
-
 }
 .punto{
     background-color: black;
 }
 .logo{
-    width: 85px;
-    height: 75px;
+    width: 90px;
+    height: 85px;
 }
 .logo img{
-    margin-top: 10%;
+    padding-top:10%;
     width: 100%;
     height: 100%;
 }
@@ -193,6 +197,7 @@ home----------------------------------------------------------------------------
     width: 20%;
     height: 100%;
     margin-left: 20px;
+    margin-top: 3%;
 }
 .productosInicio{
     color:  black;
@@ -200,7 +205,6 @@ home----------------------------------------------------------------------------
     font-size: 1.875rem;
     font-weight: 100;
     text-align: center;
-    margin-left: 15px;
 }
 .botones{
     display: flex;
@@ -274,7 +278,7 @@ home----------------------------------------------------------------------------
     font-weight: 600;
     width: 52%;
     height: 90%;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 .encontrarnos{
     width: 100%;
@@ -317,17 +321,38 @@ home----------------------------------------------------------------------------
     justify-content: center;
 }
 .bebidas-comidas{
+    align-items: center;
+    height:1000px;
     background-image: url(../assest/menu/fondoClaro.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.menuCalUno article{
-    display: inline-block;
-    margin: 25px;
+.comida{
+    align-items: center;
+    height: 900px;
+    background-image: url(../assest/menu/fondoClaro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.menuCalDos article{
-    display: inline-block;
-    margin: 25px;
+.comida img{
+    border-radius: 63px;
+}
+.menuCompleto{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menuCompleto2{
+    padding-top: 20px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .productos p{
     color: #225c3b;
@@ -380,18 +405,19 @@ home----------------------------------------------------------------------------
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height: 100%;
+    height: 900px;
 }
 .hola{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .hola img{
-    width: 25%;
-    height: 10%;
-    padding-top: 110px;
-    padding-right: 40px;
+    width: 27%;
+    height: 12%;
+    padding-top: 70px;
+    padding-right: 30px;
     padding-left: 20px;
 }
 .cocinaalavista{
@@ -403,50 +429,47 @@ home----------------------------------------------------------------------------
     height:100%;
 }
 .ambos{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
     width: 100%;
     height: 700px;
     display: grid;
-    grid-template-columns: repeat(11, 9.090909%);
-    grid-template-rows: repeat(9, 11.111111%);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.ambosDos{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    position: absolute;
+    width: 100%;
+}
+.ambosDos h4{
+    color:black;
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 7.375rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 270px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .ambos .patioGrid{
-    width:100%;
-    height: 100%;
+    width:70%;
+    height: 95%;
     border-radius: 153px;
-    grid-column: 2 / 6;
-    grid-row: 2 / 9;
 }
 .ambos .terrazaGrid{
-    width:100%;
-    height: 100%;
+    width:70%;
+    height: 95%;
     border-radius: 153px;
-    grid-column:   7 / 11;
-    grid-row: 2 / 9;
-}
-.ambos .patioo{
-    color:black;
-    font-family:"Saira Condensed", sans-serif;
-    font-size: 8rem;
-    font-weight: 900;
-    width: 100%;
-    grid-column: 2 / 6;
-    justify-self: center;
-    align-self: center;
-    grid-row: 4 / 6 ;
-}
-.ambos .terrazaa{
-    color:black;
-    font-family:"Saira Condensed", sans-serif;
-    font-size: 8rem;
-    font-weight: 900;
-    width: 100%;
-    grid-column: 7 / 11;
-    justify-self: center;
-    align-self: center;
-    grid-row: 4 / 6 ;
+
 }
 .terr-pat{
     width: 100%;
+    height: 1000px;
     background-color: black;
 }
 .terr-pat p{
@@ -461,7 +484,8 @@ home----------------------------------------------------------------------------
     font-weight: 100;
 }
 .tambien{
-    padding-top: 30px;
+    padding-top:3%;
+    padding-bottom: 0%;
 }
 .tambien h2{
     color:black;
@@ -479,7 +503,6 @@ home----------------------------------------------------------------------------
     font-family:"Orbitron", sans-serif;
     font-size: 2rem;
     font-weight: 100;
-    margin-bottom: 70px;
     margin-left: 220px;
     margin-right: 220px;
 }
@@ -830,6 +853,44 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 1350px){
+    .productos p{
+        font-size: 17px;
+    }
+    .comida{
+        height: 780px;
+    }
+    .bebidas-comidas{
+        height: 880px;
+    }
+    .bebidas-comidas img{
+        width: 240px;
+        height: 270px;
+    }
+    .comida img{
+        width: 240px;
+        height: 270px;
+    }
+    .primeraParte{
+        height: 800px;
+    }
+    .tambien p{
+        font-size: 1.625rem;
+    }
+    .tambien h2{
+        font-size: 3.625rem;
+    }
+    .hola p{
+        font-size: 3.625rem;
+    }
+    .ambos .patioo{
+        font-size: 6.25rem;
+    }
+    .ambos .terrazaa{
+        font-size: 6.25rem;
+    }
+    .menulogo{
+        height: 220px;
+    }
     .cuatroProd{
         height: 600px;
     }
@@ -838,6 +899,18 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 1272px){
+    .ambosDos h4{
+        font-size: 6.25rem;
+    }
+    .cocinaalavista{
+        height: 550px;
+    }
+    .hola p{
+        font-size: 3.25rem;
+    }
+    .terr-pat p{
+        font-size: 4.375rem;
+    }
     .cuatroProd{
         height: 550px;
     }
@@ -856,6 +929,60 @@ home----------------------------------------------------------------------------
 }
 
 @media (max-width: 1170px){
+    .productos p{
+        font-size: 14px;
+    }
+    .sub-dos h2{
+        height: 270px;
+        font-size: 2.5rem;
+        padding-left: 20px;
+    }
+    .menuCompleto2{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        }
+    .menuCompleto{
+        padding-top: 50px;
+    }
+    .comida{
+        height: 650px;
+    }
+    .bebidas-comidas{
+        height: 780px;
+    }
+    .bebidas-comidas img{
+        width: 200px;
+        height: 230px;
+    }
+    .comida img{
+        width: 200px;
+        height: 230px;
+    }
+    .primeraParte{
+        height: 700px;
+    }
+    .tambien h2{
+        font-size: 3.125rem;
+    }
+    .terr-pat{
+        height: 900px;
+    }
+    .terr-pat p{
+        font-size: 4.0625rem;
+    }
+    .ambos .patioGrid{
+        height: 80%;
+    }
+    .ambos .terrazaGrid{
+        height: 80%;
+    }
+    .ambosDos h4{
+        padding-top: 250px;
+        font-size: 5rem;
+    }
+    .menulogo{
+        height: 200px;
+    }
     .fondoCof img{
         width: 20%;
         height: 70%;
@@ -912,6 +1039,42 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 1100px){
+    .terr-pat{
+        height: 850px;
+    }
+    .primeraParte{
+        height: 650px;
+    }
+    .cocinaalavista{
+        height: 500px;
+    }
+    .tambien p{
+        font-size: 1.25rem;
+    }
+    .tambien h2{
+        font-size: 2.625rem;
+    }
+    .hola p{
+        font-size: 2.875rem;
+    }
+    .terr-pat p{
+        font-size: 3.4375rem;
+    }
+    .ambos .patioGrid{
+        height: 80%;
+    }
+    .ambos .terrazaGrid{
+        height: 80%;
+    }
+    .ambosDos h4{
+        padding-top: 250px;
+    }
+    .menulogo{
+        height: 180px;
+    }
+    .fondoCof p{
+        margin-top: 10%;
+    }
     .fondoCof img{
         width: 22%;
     }
@@ -922,11 +1085,12 @@ home----------------------------------------------------------------------------
         font-size: 1.375rem;
     }
     .logo img{
+        padding-top: 15%;
         width:90%;
         height:90%;
     }
     .barraNav{
-        height: 108px;
+        height: 100px;
     }
     .encontrarnos{
         height: 350px;
@@ -934,6 +1098,82 @@ home----------------------------------------------------------------------------
 
 }
 @media (max-width: 929px){
+    .mainMenu h1{
+        width: 100%;
+        height: 550px;
+    }
+    .bebidas-comidas h2{
+        font-size: 3.125rem;
+    }
+    .productos p{
+        font-size: 14px;
+    }
+    .sub-dos h2{
+        width: 100%;
+        height: 200px;
+        font-size: 2.125rem;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+    .menuCompleto2{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        }
+    .menuCompleto{
+        padding-top: 40px;
+    }
+    .comida{
+        height: 540px;
+    }
+    .bebidas-comidas{
+        height: 650px;
+    }
+    .bebidas-comidas img{
+        width: 160px;
+        height: 190px;
+    }
+    .comida img{
+        width: 160px;
+        height: 190px;
+    }
+    .terr-pat{
+        height: 750px;
+    }
+    .primeraParte{
+        height: 600px;
+    }
+    .cocinaalavista{
+        height: 450px;
+    }
+    .hola img{
+        padding-top: 50px;
+    }
+    .tambien p{
+        margin-left: 180px;
+        margin-right: 180px;
+        font-size: 1.125rem;
+    }
+    .hola p{
+        padding-top: 40px;
+        margin-left: 50px;
+        font-size: 2.5rem;
+    }
+    .terr-pat p{
+        font-size: 2.9375rem;
+    }
+    .ambos .patioGrid{
+        height: 70%;
+    }
+    .ambos .terrazaGrid{
+        height: 70%;
+    }
+    .ambosDos h4{
+        font-size: 4.375rem;
+        padding-top: 230px;
+    }
+    .menulogo{
+        height: 150px;
+    }
     .fondoCof img{
         width: 23%;
         height: 65%;
@@ -968,11 +1208,11 @@ home----------------------------------------------------------------------------
         padding-left:40px;
     }
     .barraNav{
-        height: 106px;
+        height: 92px;
     }
     .logo img{
-        width:80%;
-        height:80%;
+        width:85%;
+        height:85%;
     }
     nav ul li a{
         font-size: 1.125rem;
@@ -985,6 +1225,76 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 815px){
+    .mainMenu h1{
+        height: 450px;
+    }
+    .productos p{
+        font-size: 11px;
+    }
+    .sub-dos h2{
+        width: 100%;
+        height: 200px;
+        font-size: 2.125rem;
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+    .menuCompleto2{
+        padding-top: 30px;
+        padding-bottom: 15px;
+        }
+    .menuCompleto{
+        padding-top: 20px;
+    }
+    .comida{
+        height: 470px;
+    }
+    .bebidas-comidas{
+        height: 570px;
+    }
+    .bebidas-comidas img{
+        width: 140px;
+        height: 170px;
+    }
+    .comida img{
+        width: 140px;
+        height: 170px;
+    }
+    .terr-pat{
+        height: 700px;
+    }
+    .cocinaalavista{
+        height: 400px;
+    }
+    .primeraParte{
+        height: 500px;
+    }
+    .menulogo{
+        height: 130px;
+    }
+    .tambien p{
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: .875rem;
+    }
+    .tambien h2{
+        font-size: 2.25rem;
+    }
+    .hola p{
+        font-size: 2.25rem;
+    }
+    .terr-pat p{
+        font-size: 2.625rem;
+    }
+    .ambosDos h4{
+        padding-top: 210px;
+        font-size: 3.4375rem;
+    }
+    .ambos .patioGrid{
+        height: 60%;
+    }
+    .ambos .terrazaGrid{
+        height: 60%;
+    }
     .chicacoffe2{
         width: 20%;
         height: 73%;
@@ -1004,6 +1314,84 @@ home----------------------------------------------------------------------------
     }
 }
 @media (max-width: 737px){
+    .mainMenu h1{
+        font-size: 6.875rem;
+        height: 430px;
+    }
+    .productos p{
+        font-size: 10px;
+    }
+    .sub-dos h2{
+        width: 100%;
+        height: 150px;
+        font-size: 1.75rem;
+        padding-left: 20px;
+        padding-top: 100px;
+    }
+    .menuCompleto{
+        padding-top: 30px;
+    }
+    .comida{
+        height: 400px;
+    }
+    .bebidas-comidas{
+        height: 500px;
+    }
+    .bebidas-comidas h2{
+        font-size: 36px;
+    }
+    .bebidas-comidas img{
+        width: 120px;
+        height: 150px;
+    }
+    .comida img{
+        width: 110px;
+        height: 140px;
+    }
+    .terr-pat{
+        height: 600px;
+    }
+    .cocinaalavista{
+        height: 350px;
+    }
+    .primeraParte{
+        height: 470px;
+    }
+    .hola img{
+        width: 28%;
+        height: 13%;
+    }
+    .menulogo{
+        height: 120px;
+    }
+    .tambien h2{
+        font-size: 1.75rem;
+    }
+    .hola p{
+        font-size: 2rem;
+    }
+    .terr-pat p{
+        padding-top: 50px;
+        font-size: 2.1875rem;
+    }
+    .ambos{
+        padding-top: 40px;
+    }
+    .ambosDos h4{
+        padding-top: 150px;
+    }
+    .ambos .patioGrid{
+        height: 50%;
+    }
+    .ambos .terrazaGrid{
+        height: 50%;
+    }
+    .loveInACup{
+        height: 20px;
+    }
+    .loveInACup h4{
+        font-size: .75rem;
+    }
     .chicacoffe2{
         height: 68%;
     }
@@ -1011,7 +1399,7 @@ home----------------------------------------------------------------------------
         height: 55%;
     }
     .cuatroProd{
-        height: 400px;
+        height: 390px;
     }
     .prod article{
         display: flex;
@@ -1046,21 +1434,95 @@ home----------------------------------------------------------------------------
         font-size: 3.375rem;
         padding-left:30px;
     }
-    .barraNav{
-        height: 90px;
-    }
     .logo img{
-        width:70%;
-        height:70%;
+        padding-top: 15%;
     }
     nav ul li a{
-        font-size: 1rem;
+        font-size: .875rem;
     }
     .productosInicio button{
         font-size: .625rem;
     }
+    .barraNav{
+        height: 90px;
+    }
 }
 @media (max-width:636px){
+    .puntoC{
+        height: 3px;
+    }
+    .mainMenu h1{
+        font-size: 5.625rem;
+        height: 330px;
+    }
+    .productos p{
+        font-size: 7px;
+    }
+    .menuCompleto2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        }
+    .menuCompleto{
+        padding-top: 30px;
+    }
+    .comida{
+        height: 310px;
+    }
+    .bebidas-comidas{
+        height: 380px;
+    }
+    .bebidas-comidas h2{
+        font-size: 2rem;
+    }
+    .bebidas-comidas img{
+        width: 90px;
+        height: 110px;
+    }
+    .comida img{
+        width: 90px;
+        height: 110px;
+    }
+    .terr-pat{
+        height: 500px;
+    }
+    .primeraParte{
+        height: 430px;
+    }
+    .cocinaalavista{
+        height: 300px;
+    }
+    .hola img{
+        padding-top: 40px;
+        width: 32%;
+        height: 17%;
+    }
+    .menulogo{
+        height: 90px;
+    }
+    .tambien p{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .hola p{
+        padding-top: 30px;
+        margin-left: 40px;
+        font-size: 1.625rem;
+    }
+    .terr-pat p{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.875rem;
+    }
+    .ambosDos h4{
+        padding-top: 135px;
+        font-size: 3rem;
+    }
+    .ambos .patioGrid{
+        height: 40%;
+    }
+    .ambos .terrazaGrid{
+        height: 40%;
+    }
     .botones button{
         font-size: .5rem;
         margin: 0.5px 0.5px 0.5px 0.5px;
@@ -1077,7 +1539,7 @@ home----------------------------------------------------------------------------
         height: 60%;
     }
     .cuatroProd{
-        height: 350px;
+        height: 320px;
     }
     .comienzo{
         height: 250px;
@@ -1101,15 +1563,15 @@ home----------------------------------------------------------------------------
         font-size: 3.375rem;
         padding-left:20px;
     }
-    .barraNav{
-        height: 85px;
-    }
     .logo img{
-        width:60%;
-        height:60%;
+        width:70%;
+        height:80%;
+    }
+    .barraNav{
+        height: 78px;
     }
     nav ul li a{
-        font-size: .8125rem;
+        font-size: .75rem;
     }
     .masVendidos{
         font-size: 3.25rem;
@@ -1117,8 +1579,67 @@ home----------------------------------------------------------------------------
     .productosInicio button{
         font-size: .4375rem;
     }
+    nav{
+        padding-top: 30px;
+    }
+    nav ul li{
+        padding-top: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 @media (max-width:535px){
+    nav ul li{
+        padding-top: 2px;
+    }
+    .terr-pat{
+        height: 400px;
+    }
+    .cocinaalavista{
+        height: 250px;
+    }
+    .primeraParte{
+        height: 400px;
+    }
+    .hola img{
+        width: 35%;
+        height: 20%;
+    }
+    .navGral{
+        height: 40px;
+    }
+    .navGral nav{
+        margin-top: 0px;
+    }
+    .menulogo{
+        height: 80px;
+    }
+    .tambien p{
+        font-size: .625rem;
+    }
+    .tambien h2{
+        font-size: 1.375rem;
+    }
+    .hola p{
+        font-size: 1.4375rem;
+    }
+    .terr-pat p{
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    .ambosDos h4{
+        padding-top: 130px;
+        font-size: 2.1875rem;
+    }
+    .ambos .patioGrid{
+        height: 35%;
+    }
+    .ambos .terrazaGrid{
+        height: 35%;
+    }
+    .prod img{
+        margin-left: 5px;
+    }
     .encontrarnos{
         height: 200px;
     }
@@ -1141,7 +1662,7 @@ home----------------------------------------------------------------------------
         font-size: 1.25rem;
     }
     .cuatroProd{
-        height: 320px;
+        height: 290px;
     }
     .comienzo{
         height: 200px;
@@ -1150,6 +1671,7 @@ home----------------------------------------------------------------------------
         font-size: 2.125rem;
     }
     nav{
+        padding-top: 25px;
         font-size: .375rem;
     }
     .encontrarnos h2{
@@ -1157,15 +1679,16 @@ home----------------------------------------------------------------------------
         padding-left:10px;
     }
     .barraNav{
-        height: 75px;
+        padding-bottom: 10px;
+        height: 60px;
     }
     .logo img{
-        margin-top: 25%;
-        width:40%;
-        height:40%;
+        margin-top: 10%;
+        width:50%;
+        height:60%;
     }
     nav ul li a{
-        font-size: .625rem;
+        font-size: .5625rem;
     }
     .masVendidos{
         font-size: 2.8125rem;
@@ -1174,8 +1697,101 @@ home----------------------------------------------------------------------------
         font-size: .3125rem;
     }
 }
-
 @media (max-width:460px){
+    .puntoC{
+        height: 0.5px;
+    }
+    .mainMenu h1{
+        font-size: 3.75rem;
+        height: 210px;
+    }
+    .productos p{
+        font-size: 6px;
+    }
+    .sub-dos h2{
+        height: 100px;
+        font-size: 1.375rem;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    .menuCompleto2{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        }
+    .menuCompleto{
+        padding-top: 20px;
+    }
+    .comida{
+        height: 260px;
+    }
+    .bebidas-comidas{
+        height: 300px;
+    }
+    .bebidas-comidas h2{
+        padding-top: 20px;
+        font-size: 1.5625rem;
+    }
+    .bebidas-comidas img{
+        width: 75px;
+        height: 90px;
+    }
+    .comida img{
+        width: 75px;
+        height: 90px;
+    }
+    .terr-pat{
+        height: 330px;
+    }
+    .ambos{
+        padding-top: 20px;
+    }
+    .ambosDos h4{
+        padding-top: 95px;
+    }
+    .ambos .patioGrid{
+        height: 30%;
+    }
+    .ambos .terrazaGrid{
+        height: 30%;
+    }
+    .terr-pat p{
+        font-size: 1.1875rem;
+    }
+    .cocinaalavista{
+        height: 200px;
+    }
+    .primeraParte{
+        height: 350px;
+    }
+    .hola img{
+        padding-top: 30px;
+        width: 38%;
+        height: 23%;
+    }
+    .navGral{
+        height: 40px;
+    }
+    .navGral nav ul li a{
+        font-size: .5rem;
+    }
+    .menulogo{
+        height: 65px;
+    }
+    .tambien h2{
+        font-size: 1.125rem;
+    }
+    .tambien p{
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    .hola p{
+        padding-top: 25px;
+        margin-left: 35px;
+        font-size: 1.25rem;
+    }
+    .prod img{
+        margin-left: 4px;
+    }
     .pieDePag h2{
         font-size: .75rem;
     }
@@ -1200,7 +1816,7 @@ home----------------------------------------------------------------------------
         font-size: .875rem;
     }
     .cuatroProd{
-        height: 280px;
+        height: 250px;
     }
     .masVendidos{
         font-size: 2.375rem;
@@ -1214,20 +1830,100 @@ home----------------------------------------------------------------------------
         font-size: 1.375rem;
     }
     .barraNav{
-        height: 70px;
-    }
-    .logo img{
-        width:40%;
-        height:40%;
+        padding-bottom: 11px;
+        height: 58px;
     }
     nav ul li a{
         font-size: .4375rem;
     }
+    .logo img{
+        width: 45%;
+        height: 55%;
+    }
+    .ambosDos h4{
+        font-size: 1.875rem;
+    }
 }
-@media (max-width:375px){
+@media (max-width:380px){
+    .menuCompleto{
+        padding-top: 10px;
+    }
+    .comida{
+        height: 230px;
+    }
+    .bebidas-comidas h2{
+        margin-left: 15px;
+    }
+    .bebidas-comidas{
+        height: 270px;
+    }
+    .bebidas-comidas img{
+        width: 65px;
+        height: 80px;
+    }
+    .comida img{
+        width: 65px;
+        height: 80px;
+    }
+    .terr-pat{
+        width: 100%;
+        height: 260px;
+    }
+    .ambosDos h4{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 70px;
+    }
+    .ambos .patioGrid{
+        height: 22%;
+    }
+    .ambos .terrazaGrid{
+        height: 22%;
+    }
+    .terr-pat p{
+        padding-top: 20px;
+        font-size: .9375rem;
+    }
+    .cocinaalavista{
+        height: 150px;
+    }
+    .primeraParte{
+        height: 300px;
+    }
+    .hola img{
+        width: 40%;
+        height: 30%;
+    }
+    .hola p{
+        margin-left: 25px;
+        height: 100%;
+        font-size: 1rem;
+    }
+    nav{
+        padding-top: 15px;
+    }
+    .navGral{
+        height: 30px;
+    }
+    .navGral nav ul li a{
+        font-size: .4688rem;
+    }
+    .menulogo{
+        height: 55px;
+    }
+    .tambien h2{
+        font-size: .9375rem;
+    }
+    .tambien p{
+        font-size: .5rem;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .prod img{
+        margin-left: 3px;
+    }
     .encontrarnos h2{
-        font-size: 30p
-        ;
+        font-size: 1.875rem;
     }
     .chicacoffe2{
         height: 60%;
@@ -1253,7 +1949,7 @@ home----------------------------------------------------------------------------
         padding-top: 20px;
     }
     .cuatroProd{
-        height: 220px;
+        height: 210px;
     }
     .masVendidos{
         font-size: 1.75rem;
@@ -1265,12 +1961,11 @@ home----------------------------------------------------------------------------
         height: 50%;
     }
     .logo img{
-        margin-top: 35%;
-        width:25%;
-        height:25%;
+        width:40%;
+        height:50%;
     }
     nav ul li a{
-        font-size: .25rem;
+        font-size: .375rem;
     }
     .comienzo{
         height: 110px;
@@ -1278,6 +1973,20 @@ home----------------------------------------------------------------------------
     .comienzo h1{
         font-size: 1.125rem;
     }
-    
+    .ambosDos h4{
+        font-size: 1.6875rem;
+    }
+    .navHome ul{
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:355px){
+    nav ul li a{
+        font-size: .375rem;
+    }
+    nav ul li{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
 }
 /**MEDIDA MOBILE IPHONE SE**/
