@@ -1,0 +1,28 @@
+footer {
+  width: $widthYHeigth;
+  height: 70px;
+  background-color:map-get($colors , fondoFooter); 
+  @include flex(row, space-around, center);
+}
+
+footer .pieDePag {
+  width: $widthYHeigth;
+  height: $widthYHeigth;
+  @include flex(row, center, center);
+  gap: 0rem;
+}
+
+.pieDePag h2 {
+  width: 80%;
+  height: $widthYHeigth;
+  text-align: center;
+  color:map-get($colors , blanco ); 
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+footer .pieDePag img {
+  width: 70px;
+  height: 70%;
+}

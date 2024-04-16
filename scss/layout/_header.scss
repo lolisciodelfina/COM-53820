@@ -1,0 +1,9 @@
+.menulogo{
+    width: $widthYHeigth;
+    height: 220px;
+    @include flex(row, center, center);
+}
+.menulogo img{
+    width:60%;
+    height:$widthYHeigth;
+}

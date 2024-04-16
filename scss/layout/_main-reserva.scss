@@ -1,0 +1,162 @@
+.sectionDos{
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+}
+.imagen{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: $widthYHeigth;
+    grid-template-areas: "salon terraza patio";
+    column-gap: 20px;
+}
+.imagen img{
+    width:$widthYHeigth;
+    height: $widthYHeigth;
+}
+.lugarReserva article div h2{
+    color: map-get($colors , blanco ); 
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 110px;
+    font-weight: 100;
+    text-align: center;
+}
+.lugares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:$widthYHeigth;
+    grid-template-areas: "salon terraza patio";
+    position: relative;
+}
+.lugarReserva article .lugares .salon{
+    grid-area: salon;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 90px;
+}
+.lugarReserva article .lugares .terraza{
+    grid-area: terraza;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+.lugarReserva article .lugares .patio{
+    grid-area: patio;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 120px;
+}
+.linea{
+    width: $widthYHeigth;
+    height: 30px;
+}
+.div-1 div{
+    width:$widthYHeigth;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 0px;
+}
+.div-2 div{
+    width:$widthYHeigth;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.div-2{
+    width: 70%;
+    padding-left: 50px;
+}
+.div-1{
+    width: 70%;
+    margin-left: 150px;
+}
+.todoJunto{
+    width:$widthYHeigth;
+    @include flex(row, space-around, center);
+}
+.enviarBoton{
+    @include flex(row, right, center);
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.enviarBoton button{
+    text-transform: $textT;
+    color:map-get($colors , negro);   
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 59px;
+    background: none;
+    border: none;
+}
+.formularioTA form{
+    color: map-get($colors , negro);   
+    font-family:"Orbitron", sans-serif;
+    font-weight: 900;
+}
+.formularioTA h2{
+    color:map-get($colors , negro);   
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 6rem;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.formularioTA p{
+    text-align: left;
+    width: 70%;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+.palabraForm{
+    width:$widthYHeigth;
+    font-size: 2.5rem;
+}
+.barraForm{
+    width:70%;
+    height: 30px;
+    color:map-get($colors , blanco ); 
+    border-color: map-get($colors , negro);   
+    border-radius: 29.5px;
+    border-width: 1.5px;
+}
+.chicataza{
+    width: 20%;
+    justify-content: right;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.info{
+    color: map-get($colors , negro);   
+    font-family:"Orbitron", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    grid-area: info;
+    margin-top: 40px;
+}
+.amigas{
+    background-image: url(../assest/reserva/amigas.jpg);
+    @include background(contain, no-repeat, $widthYHeigth);
+    height: 608px;
+    @include flex(column, center, center);
+}
+.amigas h2{
+    color:map-get($colors , blanco ); 
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform:$textT;
+    text-align: center;
+    align-items: center;
+}
+.amigas h3{
+    color:map-get($colors , blanco ); 
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: $textT;
+    text-align: center;
+    align-items: center;
+}

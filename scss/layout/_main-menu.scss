@@ -1,0 +1,68 @@
+.mainMenu h1{
+    width:$widthYHeigth;
+    height: 650px;
+    text-transform: $textT;
+    background-image: url(../assest/menu/menu.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+    @include flex(row, center, center);
+}
+.bebidas-comidas{
+    align-items: center;
+    height:1000px;
+    background-image: url(../assest/menu/fondoClaro.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+}
+.comida{
+    align-items: center;
+    height: 900px;
+    background-image: url(../assest/menu/fondoClaro.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+}
+.comida img{
+    border-radius: 63px;
+}
+.menuCompleto{
+    padding-top: 70px;
+    @include flex(row, space-evenly, center);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menuCompleto2{
+    padding-top: 20px;
+    padding-bottom: 70px;
+    @include flex(row, space-evenly, center);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.productos p{
+    color: #225c3b;
+    font-family:"Orbitron", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.bebidas-comidas img{
+    border-radius: 63px;
+}
+.bebidas-comidas h2{
+    color: black;
+    font-family:"Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.sub-dos h2{
+    color:map-get($colors , blanco ); 
+    font-family:"Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    width:$widthYHeigth;
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 200px;
+    background-image: url(../assest/menu/paraacompañar.png);
+}
+.sub-dos{
+    @include flex(row, start, left);
+}

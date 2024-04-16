@@ -1,0 +1,180 @@
+.barraNav{
+    width:$widthYHeigth;
+    height: 107px;
+}
+.navHome{
+    padding-top: 20px;
+    width:$widthYHeigth;
+    height:50%;
+    @include flex(row, space-between, center);
+    padding-left: 0px;
+}
+.productosInicio p{
+    text-transform: $textT;
+}
+.productosInicio button{
+    color: map-get($colors , blanco );
+    font-family:"Orbitron", sans-serif;
+    font-weight: 400;
+    padding:5%;
+    background-color:map-get($colors , verdeBotones); 
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+.cuatroProd{
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    @include background(cover, no-repeat, $widthYHeigth);
+    height: 565px;
+}
+.prod{
+    @include flex(row, space-around, center);
+
+}
+.prod article{
+    width: 20%;
+    height: 10%;
+}
+.prod img{
+    margin-left: 7px;
+    margin-top: 20px;
+    width:90%;
+    height: $widthYHeigth;
+    border-radius: 57px;
+}
+.masVendidos{
+    color:map-get($colors , negro); 
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 4rem;
+}
+.masVendidos h3{
+    height: 20%;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 30px;
+}
+.punto{
+    background-color:map-get($colors , negro);  
+}
+.logo{
+    width: 90px;
+    height: 85px;
+}
+.logo img{
+    padding-top:10%;
+    width:$widthYHeigth;
+    height: $widthYHeigth;
+}
+.comienzo{
+    background-image: url(../assest/Inicio/cafeteria\ aest.jpg);
+    @include background(cover, no-repeat, $widthYHeigth);
+    height: 712px;
+    background-position: center center;
+    @include flex(row, left, center);
+}
+.comienzo h1{
+    font-size: 110px;
+    text-align: left; 
+    text-transform: $textT;
+    width: 20%;
+    height: $widthYHeigth;
+    margin-left: 20px;
+    margin-top: 3%;
+}
+.productosInicio{
+    color: map-get($colors , negro);  
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 1.875rem;
+    font-weight: 100;
+    text-align: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    row-gap:20px ;
+}
+.botones button{
+    width:60%;
+    height:70%;
+    color: map-get($colors , verdeBotones);  
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color:map-get($colors , negro);  
+    border-style: 20px solid;
+    border-color:map-get($colors , verdeBotones); 
+    border-radius: 59.5px;
+    margin: 10px 10px 10px 10px;
+}
+.reserva{
+    width: $widthYHeigth;
+    height: 90px;
+    background-color:map-get($colors , negro);   
+    background-size: cover;
+    @include flex(row, space-between, center);
+}
+.reserva h3{
+    color:map-get($colors , blanco );
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 3rem;
+    font-weight: 50;
+    padding-left: 20px;
+}
+.reserva button{
+    color:map-get($colors , verdeBotones); 
+    font-family:"Orbitron", sans-serif;
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+.fondoCof{
+    background-image: url(../assest/Inicio/fondoTime.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+    height: 430px;
+    @include flex(row, center, center);
+}
+.fondoCof img{
+    width: 20%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+.fondoCof p{
+    color:map-get($colors , negro);   
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 2.25rem;
+    font-weight: 600;
+    width: 52%;
+    height: 90%;
+    margin-top: 8%;
+}
+.encontrarnos{
+    width: $widthYHeigth;
+    height: 500px;
+    background-image: url(../assest/Inicio/fondo\ sombra.jpg);
+    @include background(cover, no-repeat, $widthYHeigth);
+    @include flex(row, space-between, center);
+}
+.encontrarnos h2{
+    color:map-get($colors , letrasVerdes);   
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 6.25rem;
+    font-weight: 50;
+    text-align: left center;
+    text-transform: $textT;
+    width: 30%;
+    height: $widthYHeigth;
+    padding-left:70px;
+    padding-top: 60px;
+}
+.chicacoffe2{
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    width: 25%;
+    height: 400x;
+}

@@ -1,0 +1,113 @@
+.hola p{
+    color:map-get($colors , negro);   
+    font-family:"Reenie Beanie", cursiva;
+    font-size: 4rem;
+    font-weight: 100;
+    width: 50%;
+    height:$widthYHeigth;
+    width: 60%;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+.primeraParte{
+    background-image: url(../assest/nosotros/fondonos.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+    height: 900px;
+}
+.hola{
+    width:$widthYHeigth;
+    @include flex(row, space-around, center)
+}
+.hola img{
+    width: 27%;
+    height: 12%;
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.cocinaalavista{
+    width:$widthYHeigth;
+    height: 600px;
+}
+.cocinaalavista img{
+    width:$widthYHeigth;
+    height:$widthYHeigth;
+}
+.ambos{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: $widthYHeigth;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.ambosDos{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    position: absolute;
+    width: 100%;
+}
+.ambosDos h4{
+    color:map-get($colors , negro);   
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 7.375rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 270px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ambos .patioGrid{
+    width:70%;
+    height: 95%;
+    border-radius: 153px;
+}
+.ambos .terrazaGrid{
+    width:70%;
+    height: 95%;
+    border-radius: 153px;
+
+}
+.terr-pat{
+    width: $widthYHeigth;
+    height: 1000px;
+    background-color:map-get($colors , negro);   
+}
+.terr-pat p{
+    width: $widthYHeigth;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:map-get($colors , blanco ); 
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 4.6875rem;
+    font-weight: 100;
+}
+.tambien{
+    padding-top:3%;
+    padding-bottom: 0%;
+}
+.tambien h2{
+    color:map-get($colors , negro);   
+    font-family:"Saira Condensed", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: $textT;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.tambien p{
+    color:map-get($colors , verdeBotones);   
+    text-align: center;
+    font-family:"Orbitron", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 220px;
+    margin-right: 220px;
+}

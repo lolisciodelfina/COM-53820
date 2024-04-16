@@ -1,0 +1,292 @@
+@media (max-width:460px){
+    .puntoC{
+        height: 0.5px;
+    }
+    .mainMenu h1{
+        font-size: 3.75rem;
+        height: 210px;
+    }
+    .productos p{
+        font-size: 6px;
+    }
+    .sub-dos h2{
+        height: 100px;
+        font-size: 1.375rem;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    .menuCompleto2{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        }
+    .menuCompleto{
+        padding-top: 20px;
+    }
+    .comida{
+        height: 260px;
+    }
+    .bebidas-comidas{
+        height: 300px;
+    }
+    .bebidas-comidas h2{
+        padding-top: 20px;
+        font-size: 1.5625rem;
+    }
+    .bebidas-comidas img{
+        width: 75px;
+        height: 90px;
+    }
+    .comida img{
+        width: 75px;
+        height: 90px;
+    }
+    .terr-pat{
+        height: 330px;
+    }
+    .ambos{
+        padding-top: 20px;
+    }
+    .ambosDos h4{
+        padding-top: 95px;
+    }
+    .ambos .patioGrid{
+        height: 30%;
+    }
+    .ambos .terrazaGrid{
+        height: 30%;
+    }
+    .terr-pat p{
+        font-size: 1.1875rem;
+    }
+    .cocinaalavista{
+        height: 200px;
+    }
+    .primeraParte{
+        height: 350px;
+    }
+    .hola img{
+        padding-top: 30px;
+        width: 38%;
+        height: 23%;
+    }
+    .navGral{
+        height: 40px;
+    }
+    .navGral nav ul li a{
+        font-size: .5rem;
+    }
+    .menulogo{
+        height: 65px;
+    }
+    .tambien h2{
+        font-size: 1.125rem;
+    }
+    .tambien p{
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    .hola p{
+        padding-top: 25px;
+        margin-left: 35px;
+        font-size: 1.25rem;
+    }
+    .prod img{
+        margin-left: 4px;
+    }
+    .pieDePag h2{
+        font-size: .75rem;
+    }
+    .encontrarnos{
+        height: 150px;
+    }
+    .encontrarnos h2{
+        font-size: 2.1875rem;
+        padding-top: 20px;
+    }
+    .chicacoffe2{
+        height: 70%;
+    }
+    .fondoCof{
+        height: 250px;
+    }
+    .fondoCof img{
+        height: 60%;
+    }
+    .fondoCof p{
+        padding-top: 2%;
+        font-size: .875rem;
+    }
+    .cuatroProd{
+        height: 250px;
+    }
+    .masVendidos{
+        font-size: 2.375rem;
+    }
+    .comienzo{
+        height: 130px;
+    }
+    .comienzo h1{
+        width: 15%;
+        margin-left: 10px;
+        font-size: 1.375rem;
+    }
+    .barraNav{
+        padding-bottom: 11px;
+        height: 58px;
+    }
+    nav ul li a{
+        font-size: .4375rem;
+    }
+    .logo img{
+        width: 45%;
+        height: 55%;
+    }
+    .ambosDos h4{
+        font-size: 1.875rem;
+    }
+}
+@media (max-width:380px){
+    .menuCompleto{
+        padding-top: 10px;
+    }
+    .comida{
+        height: 230px;
+    }
+    .bebidas-comidas h2{
+        margin-left: 15px;
+    }
+    .bebidas-comidas{
+        height: 270px;
+    }
+    .bebidas-comidas img{
+        width: 65px;
+        height: 80px;
+    }
+    .comida img{
+        width: 65px;
+        height: 80px;
+    }
+    .terr-pat{
+        width: $widthYHeigth;
+        height: 260px;
+    }
+    .ambosDos h4{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 70px;
+    }
+    .ambos .patioGrid{
+        height: 22%;
+    }
+    .ambos .terrazaGrid{
+        height: 22%;
+    }
+    .terr-pat p{
+        padding-top: 20px;
+        font-size: .9375rem;
+    }
+    .cocinaalavista{
+        height: 150px;
+    }
+    .primeraParte{
+        height: 300px;
+    }
+    .hola img{
+        width: 40%;
+        height: 30%;
+    }
+    .hola p{
+        margin-left: 25px;
+        height: $widthYHeigth;
+        font-size: 1rem;
+    }
+    nav{
+        padding-top: 15px;
+    }
+    .navGral{
+        height: 30px;
+    }
+    .navGral nav ul li a{
+        font-size: .4688rem;
+    }
+    .menulogo{
+        height: 55px;
+    }
+    .tambien h2{
+        font-size: .9375rem;
+    }
+    .tambien p{
+        font-size: .5rem;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .prod img{
+        margin-left: 3px;
+    }
+    .encontrarnos h2{
+        font-size: 1.875rem;
+    }
+    .chicacoffe2{
+        height: 60%;
+    }
+    .reserva h3{
+        font-size: 1.125rem;
+    }
+    .fondoCof{
+        height: 210px;
+    }
+    .fondoCof img{
+        width: 25%;
+        height: 50%;
+    }
+    .fondoCof p{
+        padding-top: 2%;
+        font-size: .75rem;
+    }
+    .prod{
+        margin-top: 0px;
+    }
+    .masVendidos h3{
+        padding-top: 20px;
+    }
+    .cuatroProd{
+        height: 210px;
+    }
+    .masVendidos{
+        font-size: 1.75rem;
+    }
+    .barraNav{
+        height: 50px;
+    }
+    .navHome{
+        height: 50%;
+    }
+    .logo img{
+        width:40%;
+        height:50%;
+    }
+    nav ul li a{
+        font-size: .375rem;
+    }
+    .comienzo{
+        height: 110px;
+    }
+    .comienzo h1{
+        font-size: 1.125rem;
+    }
+    .ambosDos h4{
+        font-size: 1.6875rem;
+    }
+    .navHome ul{
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:355px){
+    nav ul li a{
+        font-size: .375rem;
+    }
+    nav ul li{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}

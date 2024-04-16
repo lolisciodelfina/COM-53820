@@ -1,0 +1,252 @@
+@media (max-width: 1440px){
+    .comienzo{
+        height: 600px;
+    }
+    .comienzo h1{
+        font-size: 6.25rem;
+    }
+}
+@media (max-width: 1350px){
+    .productos p{
+        font-size: 17px;
+    }
+    .comida{
+        height: 780px;
+    }
+    .bebidas-comidas{
+        height: 880px;
+    }
+    .bebidas-comidas img{
+        width: 240px;
+        height: 270px;
+    }
+    .comida img{
+        width: 240px;
+        height: 270px;
+    }
+    .primeraParte{
+        height: 800px;
+    }
+    .tambien p{
+        font-size: 1.625rem;
+    }
+    .tambien h2{
+        font-size: 3.625rem;
+    }
+    .hola p{
+        font-size: 3.625rem;
+    }
+    .ambos .patioo{
+        font-size: 6.25rem;
+    }
+    .ambos .terrazaa{
+        font-size: 6.25rem;
+    }
+    .menulogo{
+        height: 220px;
+    }
+    .cuatroProd{
+        height: 600px;
+    }
+    .productosInicio{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1272px){
+    .ambosDos h4{
+        font-size: 6.25rem;
+    }
+    .cocinaalavista{
+        height: 550px;
+    }
+    .hola p{
+        font-size: 3.25rem;
+    }
+    .terr-pat p{
+        font-size: 4.375rem;
+    }
+    .cuatroProd{
+        height: 550px;
+    }
+    .comienzo{
+        height: 550px;
+    }
+    .comienzo h1{
+        font-size: 5.625rem;
+    }
+    .productosInicio{
+        font-size: 1.5rem;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1170px){
+    .productos p{
+        font-size: 14px;
+    }
+    .sub-dos h2{
+        height: 270px;
+        font-size: 2.5rem;
+        padding-left: 20px;
+    }
+    .menuCompleto2{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        }
+    .menuCompleto{
+        padding-top: 50px;
+    }
+    .comida{
+        height: 650px;
+    }
+    .bebidas-comidas{
+        height: 780px;
+    }
+    .bebidas-comidas img{
+        width: 200px;
+        height: 230px;
+    }
+    .comida img{
+        width: 200px;
+        height: 230px;
+    }
+    .primeraParte{
+        height: 700px;
+    }
+    .tambien h2{
+        font-size: 3.125rem;
+    }
+    .terr-pat{
+        height: 900px;
+    }
+    .terr-pat p{
+        font-size: 4.0625rem;
+    }
+    .ambos .patioGrid{
+        height: 80%;
+    }
+    .ambos .terrazaGrid{
+        height: 80%;
+    }
+    .ambosDos h4{
+        padding-top: 250px;
+        font-size: 5rem;
+    }
+    .menulogo{
+        height: 200px;
+    }
+    .fondoCof img{
+        width: 20%;
+        height: 70%;
+    }
+    .comienzo{
+        height: 420px;
+    }
+    .comienzo h1{
+        font-size: 4.375rem;
+    }
+    .loveInACup{
+        width: $widthYHeigth;
+    }
+    footer{
+        height: 50%;
+    }
+    .pieDePag h2{
+        font-size: 1.875rem;
+    }
+    footer .pieDePag img{
+        width:10%;
+        height:35%;
+    }
+    .fondoCof p{
+        font-size: 1.875rem;
+    }
+    .reserva h3{
+        font-size: 2.625rem;
+    }
+    .botones button{
+        font-size: 18px;
+        height: 80%;
+    }
+    .reserva{
+        height: 70px;
+    }
+    .encontrarnos h2{
+        font-size: 4.75rem;
+        padding-left:50px;
+    }
+    .encontrarnos{
+        height: 400px;
+    }
+    .chicacoffe2{
+        width: 20%;
+        height: 80%;
+    }
+    .productosInicio{
+        font-size: 1.25rem;
+    }
+    .productosInicio button{
+        width:40%;
+        height: 40%;
+    }
+}
+@media (max-width: 1100px){
+    .terr-pat{
+        height: 850px;
+    }
+    .primeraParte{
+        height: 650px;
+    }
+    .cocinaalavista{
+        height: 500px;
+    }
+    .tambien p{
+        font-size: 1.25rem;
+    }
+    .tambien h2{
+        font-size: 2.625rem;
+    }
+    .hola p{
+        font-size: 2.875rem;
+    }
+    .terr-pat p{
+        font-size: 3.4375rem;
+    }
+    .ambos .patioGrid{
+        height: 80%;
+    }
+    .ambos .terrazaGrid{
+        height: 80%;
+    }
+    .ambosDos h4{
+        padding-top: 250px;
+    }
+    .menulogo{
+        height: 180px;
+    }
+    .fondoCof p{
+        margin-top: 10%;
+    }
+    .fondoCof img{
+        width: 22%;
+    }
+    .cuatroProd{
+        height: 500px;
+    }
+    nav ul li a{
+        font-size: 1.375rem;
+    }
+    .logo img{
+        padding-top: 15%;
+        width:90%;
+        height:90%;
+    }
+    .barraNav{
+        height: 100px;
+    }
+    .encontrarnos{
+        height: 350px;
+    }
+}
