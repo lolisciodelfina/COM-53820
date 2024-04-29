@@ -26,8 +26,8 @@
     padding-left: 20px;
 }
 .cocinaalavista{
+    height: $widthYHeigth;
     width:$widthYHeigth;
-    height: 600px;
 }
 .cocinaalavista img{
     width:$widthYHeigth;
@@ -38,7 +38,6 @@
     padding-top: 70px;
     padding-bottom: 50px;
     width: $widthYHeigth;
-    height: 700px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -50,6 +49,9 @@
     grid-template-rows: 1fr;
     position: absolute;
     width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
 }
 .ambosDos h4{
     color:map-get($colors , negro);   
@@ -57,24 +59,18 @@
     font-size: 7.375rem;
     font-weight: 900;
     text-align: center;
-    padding-top: 270px;
-    padding-left: 50px;
-    padding-right: 50px;
+    align-items: center;
 }
 .ambos .patioGrid{
     width:70%;
-    height: 95%;
     border-radius: 153px;
 }
 .ambos .terrazaGrid{
     width:70%;
-    height: 95%;
     border-radius: 153px;
-
 }
 .terr-pat{
     width: $widthYHeigth;
-    height: 1000px;
     background-color:map-get($colors , negro);   
 }
 .terr-pat p{

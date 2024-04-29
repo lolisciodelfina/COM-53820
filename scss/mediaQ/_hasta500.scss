@@ -1,4 +1,59 @@
 @media (max-width: 929px){
+    .botonPedir button{
+        font-size: 1.125rem;
+    }
+    .carrito{
+        font-size: 1.625rem;
+    }
+    .todo .formulario label{
+        font-size: 1.125rem;
+    }
+    .comenza{
+        font-size: 3.75rem;
+    }
+    .pedipreppas h2{
+        font-size: 3.75rem;
+    }
+    .pedipreppas h4{
+        font-size: 1.25rem;
+    }
+    .pedipreppas ol{
+        font-size: .875rem;
+    }
+    .takeAway h1{
+        font-size: 5.625rem;
+    }
+    .productosTA article div .productos{
+        font-size: .75rem;
+    }
+    .productosTA button{
+        font-size: 20px;
+    }
+    .productosTA article img{
+        width: 160px;
+        height: 200px;
+    }
+    .amigas h3{
+        font-size: 3.125rem;
+    }
+    .amigas h2{
+        font-size: 4.5rem;
+    }
+    .lugarReserva  article .lugares h2{
+        font-size: 3.75rem;
+    }
+    .enviarBoton button{
+        font-size: 2.5rem;
+    }
+    .formularioTA h3{
+        font-size: 1rem;
+    }
+    .palabraForm{
+        font-size: 1.25rem;
+    }
+    .formularioTA h2{
+        font-size: 3.75rem;
+    }
     .mainMenu h1{
         width: $widthYHeigth;
         height: 550px;
@@ -37,14 +92,8 @@
         width: 160px;
         height: 190px;
     }
-    .terr-pat{
-        height: 750px;
-    }
     .primeraParte{
         height: 600px;
-    }
-    .cocinaalavista{
-        height: 450px;
     }
     .hola img{
         padding-top: 50px;
@@ -62,25 +111,11 @@
     .terr-pat p{
         font-size: 2.9375rem;
     }
-    .ambos .patioGrid{
-        height: 70%;
-    }
-    .ambos .terrazaGrid{
-        height: 70%;
-    }
     .ambosDos h4{
         font-size: 4.375rem;
-        padding-top: 230px;
     }
     .menulogo{
         height: 150px;
-    }
-    .fondoCof img{
-        width: 23%;
-        height: 65%;
-    }
-    .cuatroProd{
-        height: 450px;
     }
     .comienzo{
         height: 350px;
@@ -93,16 +128,13 @@
         width: $widthYHeigth;
     }
     .fondoCof p{
-        font-size: 1.625rem;
+        font-size: 1.5rem;
     }
     .reserva h3{
         font-size: 2.25rem;
     }
     .botones button{
         font-size: .75rem;
-    }
-    .encontrarnos{
-        height: 300px;
     }
     .encontrarnos h2{
         font-size: 4.25rem;
@@ -126,6 +158,30 @@
     }
 }
 @media (max-width: 815px){
+    .comenza{
+        font-size: 3.125rem;
+    }
+    .pedipreppas h2{
+        font-size: 3.125rem;
+    }
+    .pedipreppas h4{
+        font-size: 16;
+    }
+    .pedipreppas ol{
+        font-size: .75rem;
+    }
+    .lugarReserva  article .lugares h2{
+        font-size: 3.125rem;
+    }
+    .enviarBoton button{
+        font-size: 2.5rem;
+    }
+    .formularioTA h3{
+        font-size: .8125rem;
+    }
+    .formularioTA h2{
+        font-size: 3.125rem;
+    }
     .mainMenu h1{
         height: 450px;
     }
@@ -160,12 +216,6 @@
         width: 140px;
         height: 170px;
     }
-    .terr-pat{
-        height: 700px;
-    }
-    .cocinaalavista{
-        height: 400px;
-    }
     .primeraParte{
         height: 500px;
     }
@@ -187,25 +237,7 @@
         font-size: 2.625rem;
     }
     .ambosDos h4{
-        padding-top: 210px;
         font-size: 3.4375rem;
-    }
-    .ambos .patioGrid{
-        height: 60%;
-    }
-    .ambos .terrazaGrid{
-        height: 60%;
-    }
-    .chicacoffe2{
-        width: 20%;
-        height: 73%;
-    }
-    .fondoCof img{
-        width: 24%;
-        height: 60%;
-    }
-    .cuatroProd{
-        height: 420px;
     }
     .comienzo{
         height: 300px;
@@ -215,6 +247,43 @@
     }
 }
 @media (max-width: 737px){
+    .carrito{
+        font-size: 1.25rem;
+    }
+    .todo .formulario label{
+        font-size: .875rem;
+    }
+    .takeAway h1{
+        font-size: 5rem;
+    }
+    .productosTA article div .productos{
+        font-size: .5625rem;
+    }
+    .productosTA button{
+        font-size: 15px;
+    }
+    .productosTA article img{
+        width: 130px;
+        height: 170px;
+    }
+    .amigas h3{
+        font-size: 2.625rem;
+    }
+    .amigas h2{
+        font-size: 4rem;
+    }
+    .enviarBoton button{
+        font-size: 2.1875rem;
+    }
+    .formularioTA h3{
+        font-size: .75rem;
+    }
+    .barraForm{
+        height: 20px;
+    }
+    .palabraForm{
+        font-size: .9375rem;
+    }
     .mainMenu h1{
         font-size: 6.875rem;
         height: 430px;
@@ -249,12 +318,6 @@
         width: 110px;
         height: 140px;
     }
-    .terr-pat{
-        height: 600px;
-    }
-    .cocinaalavista{
-        height: 350px;
-    }
     .primeraParte{
         height: 470px;
     }
@@ -278,29 +341,11 @@
     .ambos{
         padding-top: 40px;
     }
-    .ambosDos h4{
-        padding-top: 150px;
-    }
-    .ambos .patioGrid{
-        height: 50%;
-    }
-    .ambos .terrazaGrid{
-        height: 50%;
-    }
     .loveInACup{
         height: 20px;
     }
     .loveInACup h4{
         font-size: .75rem;
-    }
-    .chicacoffe2{
-        height: 68%;
-    }
-    .fondoCof img{
-        height: 55%;
-    }
-    .cuatroProd{
-        height: 390px;
     }
     .prod article{
         display: flex;
@@ -328,9 +373,6 @@
     .productosInicio{
         font-size: .75rem;
     }
-    .encontrarnos{
-        height: 250px;
-    }
     .encontrarnos h2{
         font-size: 3.375rem;
         padding-left:30px;
@@ -347,8 +389,80 @@
     .barraNav{
         height: 90px;
     }
+    .fondoCof img{
+        width: 25%;
+        margin-right: 5%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .fondoCof p{
+        font-size: 1.25rem;
+    }
 }
 @media (max-width:636px){
+    .productosTA button{
+        font-size: 10px;
+    }
+    .todo{
+        padding-left: 7%;
+    }
+    .formulario .inp{
+        font-size: .625rem;
+        width: 80%;
+    }
+    .todo .formulario label{
+        font-size: .75rem;
+    }
+    .takeAway h1{
+        font-size: 4.375rem;
+    }
+    .productosTA article div .productos{
+        font-size: .5rem;
+    }
+    .productosTA button{
+        font-size: 10px;
+    }
+    .productosTA article img{
+        width: 120px;
+        height: 150px;
+    }
+    .botonPedir button{
+        font-size: .875rem;
+    }
+    .comenza{
+        font-size: 2.5rem;
+    }
+    .pedipreppas h2{
+        font-size: 2.5rem;
+    }
+    .pedipreppas h4{
+        font-size: 1rem;
+    }
+    .pedipreppas ol{
+        font-size: .625rem;
+    }
+    .amigas h3{
+        font-size: 2rem;
+    }
+    .amigas h2{
+        font-size: 3.375rem;
+    }
+    .lugarReserva  article .lugares h2{
+        font-size: 2.5rem;
+    }
+    .enviarBoton button{
+        font-size: 1.875rem;
+    }
+    .formularioTA h2{
+        font-size: 2.5rem;
+    }
+    .formularioTA h3{
+        font-size: .625rem;
+    }
+    .encontrarnos h2{
+        font-size: 2.6875rem;
+        padding-left:10px;
+    }
     .puntoC{
         height: 3px;
     }
@@ -383,14 +497,8 @@
         width: 90px;
         height: 110px;
     }
-    .terr-pat{
-        height: 500px;
-    }
     .primeraParte{
         height: 430px;
-    }
-    .cocinaalavista{
-        height: 300px;
     }
     .hola img{
         padding-top: 40px;
@@ -415,32 +523,14 @@
         font-size: 1.875rem;
     }
     .ambosDos h4{
-        padding-top: 135px;
         font-size: 3rem;
-    }
-    .ambos .patioGrid{
-        height: 40%;
-    }
-    .ambos .terrazaGrid{
-        height: 40%;
     }
     .botones button{
         font-size: .5rem;
         margin: 0.5px 0.5px 0.5px 0.5px;
     }
-    .fondoCof{
-        height: 350px;
-    }
     .fondoCof p{
-        padding-top: 0%;
-        font-size: 1.375rem;
-    }
-    .fondoCof img{
-        width: 26%;
-        height: 60%;
-    }
-    .cuatroProd{
-        height: 320px;
+        font-size: 1.0625rem;
     }
     .comienzo{
         height: 250px;
@@ -451,18 +541,11 @@
     .reserva h3{
         font-size: 1.375rem;
     }
-    .encontrarnos{
-        height: 250px;
-    }
     nav{
         font-size: .625rem;
     }
     .productosInicio{
         font-size: .5rem;
-    }
-    .encontrarnos h2{
-        font-size: 3.375rem;
-        padding-left:20px;
     }
     .logo img{
         width:70%;
@@ -489,15 +572,67 @@
         margin-right: 10px;
     }
 }
-@media (max-width:535px){
+@media (max-width:538px){
+    .productosTA button{
+        font-size: .5rem;
+    }
+    .formulario .inp{
+        font-size: .4375rem;
+    }
+    .comenza{
+        font-size: 1.875rem;
+    }
+    .pedipreppas h2{
+        font-size: 2.125rem;
+    }
+    .pedipreppas h4{
+        font-size: .75rem;
+    }
+    .pedipreppas ol{
+        font-size: .5rem;
+    }
+    .takeAway h1{
+        font-size: 3.75rem;
+    }
+    .productosTA article div .productos{
+        font-size: .4375rem;
+    }
+    .productosTA button{
+        font-size: 8px;
+    }
+    .productosTA article img{
+        width: 100px;
+        height: 130px;
+    }
+    .amigas h3{
+        font-size: 1.375rem;
+    }
+    .amigas h2{
+        font-size: 2.375rem;
+    }
+    .punto{
+        font-size: .125rem;
+        height: 8px;
+    }
+    .imagen{
+        padding-top: 10px;
+        column-gap: 10px;
+    }
+    .lugarReserva  article .lugares h2{
+        font-size: 1.875rem;
+    }
+    .formularioTA h2{
+        font-size: 1.875rem;
+    }
+    .palabraForm{
+        font-size: .75rem;
+    }
+    .formularioTA h3{
+        font-size: .5938rem;
+        padding-left: 25%;
+    }
     nav ul li{
         padding-top: 2px;
-    }
-    .terr-pat{
-        height: 400px;
-    }
-    .cocinaalavista{
-        height: 250px;
     }
     .primeraParte{
         height: 400px;
@@ -529,23 +664,10 @@
         font-size: 1.5rem;
     }
     .ambosDos h4{
-        padding-top: 130px;
         font-size: 2.1875rem;
-    }
-    .ambos .patioGrid{
-        height: 35%;
-    }
-    .ambos .terrazaGrid{
-        height: 35%;
     }
     .prod img{
         margin-left: 5px;
-    }
-    .encontrarnos{
-        height: 200px;
-    }
-    .chicacoffe2{
-        height: 60%;
     }
     .reserva h3{
         padding-left: 5px;
@@ -554,16 +676,6 @@
         justify-content: right;
         width: 30%;
         font-size: .5rem;
-    }
-    .fondoCof img{
-        width: 27%;
-        height: 55%;
-    }
-    .fondoCof p{
-        font-size: 1.25rem;
-    }
-    .cuatroProd{
-        height: 290px;
     }
     .comienzo{
         height: 200px;
@@ -574,10 +686,6 @@
     nav{
         padding-top: 25px;
         font-size: .375rem;
-    }
-    .encontrarnos h2{
-        font-size: 2.5rem;
-        padding-left:10px;
     }
     .barraNav{
         padding-bottom: 10px;

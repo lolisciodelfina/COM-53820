@@ -7,6 +7,32 @@
     }
 }
 @media (max-width: 1350px){
+    .pedipreppas h2{
+        font-size: 5.625rem;
+    }
+    .pedipreppas h4{
+        font-size: 1.875rem;
+    }
+    .pedipreppas ol{
+        font-size: 1.25rem;
+    }
+    .productosTA article div .productos{
+        font-size: 1.125rem;
+    }
+    .productosTA button{
+        font-size: 40px;
+    }
+    .productosTA article img{
+        width: 240px;
+        height: 270px;
+    }
+    .formularioTA h2{
+        font-size: 4.375rem;
+    }
+    .lugarReserva  article .lugares h2{
+        text-align: center;
+        font-size: 5rem;
+    }
     .productos p{
         font-size: 17px;
     }
@@ -45,28 +71,25 @@
     .menulogo{
         height: 220px;
     }
-    .cuatroProd{
-        height: 600px;
-    }
     .productosInicio{
         font-size: 1.5rem;
     }
 }
 @media (max-width: 1272px){
+    .palabraForm{
+        font-size: 1.625rem;
+    }
+    .formularioTA h3{
+        font-size: 1.25rem;
+    }
     .ambosDos h4{
         font-size: 6.25rem;
-    }
-    .cocinaalavista{
-        height: 550px;
     }
     .hola p{
         font-size: 3.25rem;
     }
     .terr-pat p{
         font-size: 4.375rem;
-    }
-    .cuatroProd{
-        height: 550px;
     }
     .comienzo{
         height: 550px;
@@ -83,6 +106,49 @@
 }
 
 @media (max-width: 1170px){
+    .botonPedir button{
+        font-size: 1.5rem;
+    }
+    .carrito{
+        font-size: 2rem;
+    }
+    .todo .formulario label{
+        font-size: 1.25rem;
+    }
+    .comenza{
+        font-size: 4.375rem;
+    }
+    .pedipreppas h2{
+        font-size: 4.5rem;
+    }
+    .pedipreppas h4{
+        font-size: 1.5rem;
+    }
+    .pedipreppas ol{
+        font-size: 1rem;
+    }
+    .takeAway h1{
+        font-size: 6.875rem;
+    }
+    .productosTA article div .productos{
+        font-size: .9375rem;
+    }
+    .productosTA button{
+        font-size: 30px;
+    }
+    .productosTA article img{
+        width: 200px;
+        height: 230px;
+    }
+    .amigas h3{
+        font-size: 3.625rem;
+    }
+    .amigas h2{
+        font-size: 5.375rem;
+    }
+    .formularioTA h3{
+        font-size: 1.125rem;
+    }
     .productos p{
         font-size: 14px;
     }
@@ -118,28 +184,14 @@
     .tambien h2{
         font-size: 3.125rem;
     }
-    .terr-pat{
-        height: 900px;
-    }
     .terr-pat p{
         font-size: 4.0625rem;
     }
-    .ambos .patioGrid{
-        height: 80%;
-    }
-    .ambos .terrazaGrid{
-        height: 80%;
-    }
     .ambosDos h4{
-        padding-top: 250px;
         font-size: 5rem;
     }
     .menulogo{
         height: 200px;
-    }
-    .fondoCof img{
-        width: 20%;
-        height: 70%;
     }
     .comienzo{
         height: 420px;
@@ -161,7 +213,7 @@
         height:35%;
     }
     .fondoCof p{
-        font-size: 1.875rem;
+        font-size: 1.6875rem;
     }
     .reserva h3{
         font-size: 2.625rem;
@@ -177,13 +229,6 @@
         font-size: 4.75rem;
         padding-left:50px;
     }
-    .encontrarnos{
-        height: 400px;
-    }
-    .chicacoffe2{
-        width: 20%;
-        height: 80%;
-    }
     .productosInicio{
         font-size: 1.25rem;
     }
@@ -193,14 +238,11 @@
     }
 }
 @media (max-width: 1100px){
-    .terr-pat{
-        height: 850px;
+    .enviarBoton button{
+        font-size: 3rem;
     }
     .primeraParte{
         height: 650px;
-    }
-    .cocinaalavista{
-        height: 500px;
     }
     .tambien p{
         font-size: 1.25rem;
@@ -214,26 +256,8 @@
     .terr-pat p{
         font-size: 3.4375rem;
     }
-    .ambos .patioGrid{
-        height: 80%;
-    }
-    .ambos .terrazaGrid{
-        height: 80%;
-    }
-    .ambosDos h4{
-        padding-top: 250px;
-    }
     .menulogo{
         height: 180px;
-    }
-    .fondoCof p{
-        margin-top: 10%;
-    }
-    .fondoCof img{
-        width: 22%;
-    }
-    .cuatroProd{
-        height: 500px;
     }
     nav ul li a{
         font-size: 1.375rem;
@@ -245,8 +269,5 @@
     }
     .barraNav{
         height: 100px;
-    }
-    .encontrarnos{
-        height: 350px;
     }
 }

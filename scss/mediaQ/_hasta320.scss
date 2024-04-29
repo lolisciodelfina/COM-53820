@@ -1,4 +1,53 @@
 @media (max-width:460px){
+    .productosTA button{
+        font-size: .375rem;
+    }
+    .todo .formulario label{
+        font-size: .625rem;
+    }
+    .comenza{
+        font-size: 1.25rem;
+    }
+    .pedipreppas h2{
+        font-size: 1.5rem;
+    }
+    .pedipreppas h4{
+        font-size: .5625rem;
+    }
+    .pedipreppas ol{
+        font-size: .4375rem;
+    }
+    .takeAway h1{
+        font-size: 3.125rem;
+    }
+    .productosTA article div .productos{
+        font-size: .375rem;
+    }
+    .productosTA button{
+        font-size: 6px;
+    }
+    .productosTA article img{
+        width: 80px;
+        height: 100px;
+    }
+    .amigas h3{
+        font-size: .9375rem;
+    }
+    .amigas h2{
+        font-size: 1.75rem;
+    }
+    .enviarBoton button{
+        font-size: 1.5rem;
+    }
+    .formularioTA h3{
+        font-size: .5rem;
+    }
+    .barraForm{
+        height: 15px;
+    }
+    .palabraForm{
+        font-size: .625rem;
+    }
     .puntoC{
         height: 0.5px;
     }
@@ -40,26 +89,8 @@
         width: 75px;
         height: 90px;
     }
-    .terr-pat{
-        height: 330px;
-    }
-    .ambos{
-        padding-top: 20px;
-    }
-    .ambosDos h4{
-        padding-top: 95px;
-    }
-    .ambos .patioGrid{
-        height: 30%;
-    }
-    .ambos .terrazaGrid{
-        height: 30%;
-    }
     .terr-pat p{
         font-size: 1.1875rem;
-    }
-    .cocinaalavista{
-        height: 200px;
     }
     .primeraParte{
         height: 350px;
@@ -96,28 +127,12 @@
     .pieDePag h2{
         font-size: .75rem;
     }
-    .encontrarnos{
-        height: 150px;
-    }
     .encontrarnos h2{
         font-size: 2.1875rem;
-        padding-top: 20px;
-    }
-    .chicacoffe2{
-        height: 70%;
-    }
-    .fondoCof{
-        height: 250px;
-    }
-    .fondoCof img{
-        height: 60%;
+        padding-top: 10px;
     }
     .fondoCof p{
-        padding-top: 2%;
         font-size: .875rem;
-    }
-    .cuatroProd{
-        height: 250px;
     }
     .masVendidos{
         font-size: 2.375rem;
@@ -145,7 +160,47 @@
         font-size: 1.875rem;
     }
 }
-@media (max-width:380px){
+@media (max-width:384px){
+    .productosTA button{
+        font-size: .25rem;
+    }
+    .todo .formulario label{
+        font-size: .5rem;
+    }
+    .pedipreppas h2{
+        font-size: 1.25rem;
+    }
+    .pedipreppas h4{
+        font-size: .5rem;
+    }
+    .pedipreppas ol{
+        font-size: .3438rem;
+    }
+    .takeAway h1{
+        font-size: 2.5rem;
+    }
+    .productosTA article div .productos{
+        font-size: .3125rem;
+    }
+    .productosTA button{
+        font-size: 5px;
+    }
+    .productosTA article img{
+        width: 70px;
+        height: 90px;
+    }
+    .lugarReserva  article .lugares h2{
+        font-size: 1.25rem;
+    }
+    .formularioTA h3{
+        font-size: .4375rem;
+    }
+    .palabraForm{
+        font-size: .5rem;
+    }
+    .formularioTA h2{
+        font-size: 1.5625rem;
+    }
     .menuCompleto{
         padding-top: 10px;
     }
@@ -168,25 +223,10 @@
     }
     .terr-pat{
         width: $widthYHeigth;
-        height: 260px;
-    }
-    .ambosDos h4{
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 70px;
-    }
-    .ambos .patioGrid{
-        height: 22%;
-    }
-    .ambos .terrazaGrid{
-        height: 22%;
     }
     .terr-pat p{
         padding-top: 20px;
         font-size: .9375rem;
-    }
-    .cocinaalavista{
-        height: 150px;
     }
     .primeraParte{
         height: 300px;
@@ -226,21 +266,10 @@
     .encontrarnos h2{
         font-size: 1.875rem;
     }
-    .chicacoffe2{
-        height: 60%;
-    }
     .reserva h3{
         font-size: 1.125rem;
     }
-    .fondoCof{
-        height: 210px;
-    }
-    .fondoCof img{
-        width: 25%;
-        height: 50%;
-    }
     .fondoCof p{
-        padding-top: 2%;
         font-size: .75rem;
     }
     .prod{
@@ -248,9 +277,6 @@
     }
     .masVendidos h3{
         padding-top: 20px;
-    }
-    .cuatroProd{
-        height: 210px;
     }
     .masVendidos{
         font-size: 1.75rem;
@@ -282,6 +308,15 @@
     }
 }
 @media (max-width:355px){
+    .takeAway h1{
+        font-size: 1.875rem;
+    }
+    .formularioTA h3{
+        font-size: .375rem;
+    }
+    .fondoCof p{
+        font-size: .6875rem;
+    }
     nav ul li a{
         font-size: .375rem;
     }

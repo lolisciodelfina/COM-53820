@@ -1,53 +1,46 @@
+.puntoB{
+    color: map-get($colors , blanco );
+}
 .takeAway{
     text-align: center;
-    padding-top: 160px;
-    height: 500px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    height: 100%;
     background-image: url(../assest/takeAway/portada.png);
     @include background(cover, no-repeat, $widthYHeigth);
-
 }
 .pedipreppas{
-    background-image: url(../assest/takeAway/fondodeg.png);
+    background-color: map-get($colors , negro);
     @include background(cover, no-repeat, $widthYHeigth);
-    height: 600px;
-}
-.pedipreppas .comenza{
-    color:map-get($colors , negro);   
-    font-family: "Reenie Beanie", cursiva;
-    font-size: 6.875rem;
-    font-weight: 100;
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 120px;
+    height: 100%;
+    padding-bottom: 5%;
 }
 .pedipreppas ol{
     @include flex(row, space-around, center);
-    padding-top: 20px;
+    padding-top: 3%;
 }
 .productosTA{
     background-image: url(../assest/takeAway/fondoBlanco.png);
     @include background(cover, no-repeat, $widthYHeigth);
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.productosTA article{
-    display: inline-block;
-    margin: 25px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    @include flex(row, space-evenly, center);
 }
 .productosTA button{
     color:map-get($colors , blanco);   
     font-family: "Saira Condensed", sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 300;
-    padding: 0px 70px 0px 70px;
-    margin-left: 15px;
+    width: $widthYHeigth;
     background-color:map-get($colors , letrasVerdes);   
     border: none;
     border-radius: 59.5px;
+    justify-items: center;
 }
 .formTA{
     background-image: url(../assest/takeAway/degrade.jpg);
-    background-repeat: no-repeat;
+    @include background(cover, no-repeat, $widthYHeigth);
+    height: $widthYHeigth;
 }
 .productosTA article img{
     border-radius: 63px;
@@ -60,11 +53,11 @@
     font-family:"Orbitron", sans-serif;
     text-align: center;
     font-size: 1.25rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 .pedipreppas h4{
-    padding-top: 50px;
+    padding-top: 5%;
     text-align: center;
     text-transform: $textT;
     color:map-get($colors , blanco);   
@@ -80,6 +73,18 @@
     font-size: 6.875rem;
     font-weight: 1000;
 }
+.comenza{
+    background-image: url(../../assest/takeAway/fondodeg.png);
+    @include background(cover, no-repeat, $widthYHeigth);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    text-transform: $textT;
+    color:map-get($colors , negro);   
+    font-family: "Reenie Beanie", cursiva;
+    font-size: 5rem;
+    font-weight: 200;
+}
 .pedipreppas ol{
     color:map-get($colors , verdeBotones);   
     font-family:"Orbitron", sans-serif;
@@ -87,20 +92,19 @@
     font-weight: 100;
 }
 .botonPedir button{
-    width: 95%;
+    width: 90%;
     color:map-get($colors , verdeBotones);   
     font-family:"Saira Condensed", sans-serif;
     font-size: 1.875rem;
     font-weight: 500;
     background-color:map-get($colors , blanco ); 
-    border-style: 10px solid;
+    border-style: 20px solid;
     border-color:map-get($colors , verdeBotones);   
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
 }
 .botonPedir{
-    padding-left: 33px;
-    padding-bottom: 20px;
+    padding-left: 9%;
+    padding-bottom: 3%;
 }
 .lineaDiv{
     background-color:map-get($colors , negro);   
@@ -109,24 +113,26 @@
     border-radius: 10px;
 }
 .carrito{
+    text-align: center;
     color: map-get($colors , negro);   
-    font-family: "Reenie Beanie", cursiva;
-    font-size: 6.875rem;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2.5rem;
     font-weight: 100;
     width:80%;
-    height: 10%;
     border:map-get($colors , negro) solid;   
     border-radius: 50px;
-    margin-left:150px ;
-    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    margin-top: 2%;
 }
 .todo{
     @include flex(row, space-between, center);
-    gap: 20px;
+    padding-bottom: 3%;
+    padding-left: 9%;
 }
 .todo .formulario label{
     color:map-get($colors , negro);   
-    font-size: 2.625rem;
+    font-size: 1.75rem;
     font-weight: 500;
     font-family:"Orbitron", sans-serif;
     display: flex;
@@ -134,24 +140,18 @@
 }
 .formulario{
     width: $widthYHeigth;
-    padding-bottom: 30px;
 }
 .formulario .inp{
-    width: 50%;
-    height: 25px;
+    font-size: .875rem;
+    width: 70%;
+    height: 30%;
     border-color: map-get($colors , negro);  
     border-style: solid;
     border-radius: 50px;
 }
-.formulario input{
-    margin-left: 70px;
-}
-.formulario .lab{
-    margin-left: 70px;
-}
 .formTA .imagenPL{
     width:$widthYHeigth;
-    height: 400px;
+    height: $widthYHeigth;
 }
 .formTA img{
     width: $widthYHeigth;

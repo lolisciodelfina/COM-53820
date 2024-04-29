@@ -26,27 +26,29 @@
 .lugares{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:$widthYHeigth;
+    grid-template-rows: 1fr;
     grid-template-areas: "salon terraza patio";
     position: relative;
+    text-align: center;
+    align-items: center;
 }
 .lugarReserva article .lugares .salon{
     grid-area: salon;
     position: absolute;
-    margin-top: 350px;
-    margin-left: 90px;
+    padding-top: 190%;
+    justify-self: center;
 }
 .lugarReserva article .lugares .terraza{
     grid-area: terraza;
     position: absolute;
-    margin-top: 350px;
-    margin-left: 50px;
+    padding-top: 190%;
+    justify-self: center;
 }
 .lugarReserva article .lugares .patio{
     grid-area: patio;
     position: absolute;
-    margin-top: 350px;
-    margin-left: 120px;
+    padding-top: 190%;
+    justify-self: center;
 }
 .linea{
     width: $widthYHeigth;
@@ -56,22 +58,24 @@
     width:$widthYHeigth;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top:8%;
     padding-right: 0px;
 }
 .div-2 div{
     width:$widthYHeigth;
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top:8%;
 }
 .div-2{
-    width: 70%;
-    padding-left: 50px;
+    padding-right: 5%;
+    padding-left: 2%;
+    width: 100%;
 }
 .div-1{
-    width: 70%;
-    margin-left: 150px;
+    padding-right: 2%;
+    padding-left: 5%;
+    width: 100%;
 }
 .todoJunto{
     width:$widthYHeigth;
@@ -79,9 +83,9 @@
 }
 .enviarBoton{
     @include flex(row, right, center);
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-right:4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .enviarBoton button{
     text-transform: $textT;
@@ -112,10 +116,10 @@
 }
 .palabraForm{
     width:$widthYHeigth;
-    font-size: 2.5rem;
+    font-size: 2.1875rem;
 }
 .barraForm{
-    width:70%;
+    width:100%;
     height: 30px;
     color:map-get($colors , blanco ); 
     border-color: map-get($colors , negro);   
@@ -125,21 +129,24 @@
 .chicataza{
     width: 20%;
     justify-content: right;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left:5%;
+    margin-top:2.5%;
 }
-.info{
+.formularioTA h3{
+    padding-left: 30%;
+    padding-top: 2%;
+    width: 100%;
     color: map-get($colors , negro);   
     font-family:"Orbitron", sans-serif;
     font-size: 1.5rem;
     font-weight: 200;
-    grid-area: info;
-    margin-top: 40px;
 }
 .amigas{
+    padding-top: 10%;
+    padding-bottom: 10%;
     background-image: url(../assest/reserva/amigas.jpg);
-    @include background(contain, no-repeat, $widthYHeigth);
-    height: 608px;
+    @include background(cover, no-repeat, $widthYHeigth);
+    height:100%;
     @include flex(column, center, center);
 }
 .amigas h2{
